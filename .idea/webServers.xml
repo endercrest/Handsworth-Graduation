@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5cfaa1cf-b4b3-4d5d-96d1-6b35f517ee13" name="Testing Server" url="http://test.endercrest.com">
+        <fileTransfer host="just22.justhost.com" port="21" rootFolder="/public_html/test" password="dfefdfe9dfcedfc8df89df99df93df93df9c" username="endercre">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
