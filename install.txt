@@ -1,0 +1,8 @@
+
+
+Requirements:
+- Apache
+- PHP 5.4+
+
+Setup:
+Run the setup.php file

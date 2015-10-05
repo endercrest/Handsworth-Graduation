@@ -1,0 +1,179 @@
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link href="../library/Bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../library/Handsworth-Graduation/css/AdminLTE.min.css" rel="stylesheet" type="text/css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css" />
+    <link href="../library/Handsworth-Graduation/css/HandsworthGrad.css" rel="stylesheet" type="text/css"/>
+    <link href="../library/Handsworth-Graduation/css/skins/skin-royal-blue-light.min.css" rel="stylesheet" type="text/css"/>
+</head>
+<body class="skin-royal-blue-light sidebar-mini" ng-app="taskApp">
+<div class="wrapper">
+    <!--<div ng-include="'../module/navigation.html'"></div>-->
+    <header class="main-header">
+        <!-- Logo -->
+        <a href="/" class="logo">
+            <!-- mini logo for sidebar mini 50x50 pixels -->
+            <span class="logo-mini"><b>HW</b></span>
+            <!-- logo for regular state and mobile devices -->
+            <span class="logo-lg"><b>Handsworth</b></span>
+        </a>
+        <!-- Header Navbar: style can be found in header.less -->
+        <nav class="navbar navbar-static-top" role="navigation">
+            <!-- Sidebar toggle button-->
+            <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <div class="navbar-custom-menu">
+                <ul class="nav navbar-nav">
+
+                    <!-- User Menu -->
+                    <li class="dropdown user user-menu" ng-controller="nav.accountDrop">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <img ng-if="nav.img" ng-src="../{{nav.img}}" class="user-image" alt="User Image" />
+                            <span class="hidden-xs" ng-bind-html="nav.text"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <!-- User image -->
+                            <li class="user-header" style="height: {{style.height}}">
+                                <img ng-if="info.img" ng-src="../{{info.img}}" class="img-circle" alt="User Image" />
+                                <p>
+                                    {{info.main}}<br>
+                                    <small>{{info.sub}}</small>
+                                </p>
+                            </li>
+                            <!-- Menu Footer-->
+                            <li class="user-footer">
+                                <div class="pull-left">
+                                    <a ng-href="{{buttons.left.url}}" class="btn btn-default btn-flat">{{buttons.left.title}}</a>
+                                </div>
+                                <div class="pull-right">
+                                    <a ng-href="{{buttons.right.url}}" class="btn btn-default btn-flat">{{buttons.right.title}}</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Left side column. contains the logo and sidebar -->
+    <aside class="main-sidebar">
+        <!-- sidebar: style can be found in sidebar.less -->
+        <section class="sidebar">
+            <!-- sidebar menu: : style can be found in sidebar.less -->
+            <ul class="sidebar-menu" ng-controller="nav.pages">
+                <li class="header">MAIN NAVIGATION</li>
+                <li ng-repeat="x in pages.main" ng-class="{'active': x.active}">
+                    <a ng-href="../{{x.url}}">
+                        <i class="fa fa-{{x.icon}} text-{{x.color}}"></i><span>{{x.name}}</span>
+                    </a>
+                </li>
+                <li ng-if="pages.sub" class="header">MY ACCOUNT</li>
+                <li ng-repeat="x in pages.sub" ng-class="{'active': x.active}">
+                    <a  ng-href="../{{x.url}}">
+                        <i class="fa fa-{{x.icon}} text-{{x.color}}"></i><span>{{x.name}}</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <!-- /.sidebar -->
+    </aside>
+
+
+    <div class="content-wrapper">
+        <div class="callout callout-warning" style="font-size: 20px;width: 100%;border-radius: 0;"><i class="fa fa-exclamation-triangle"></i> Site is still under development</div>
+        <section class="content-header">
+            <h1>Blog<small>Keeping you up to date</small></h1>
+            <ol class="breadcrumb">
+                <li><a href="/"><i class="fa fa-home"></i> Home</a></li>
+                <li class="active"><a href="../blog"><i class="fa fa-flag-o"></i> Blog</a></li>
+            </ol>
+        </section>
+
+        <!-- Main Content -->
+        <section class="content">
+            <div class="row">
+                <div class="col-md-9" ng-controller="blog.posts">
+
+                    <div class="box" style="border-top-color: #0B2687;" ng-repeat="x in posts | orderBy:'-timestamp'">
+                        <div class="box-header with-border">
+                            <span class="blog-date" style="border-top-color: #0B2687;" >{{x.date}}</span>
+                            <h2 class="box-title"><a ng-href="?id={{x.id}}" class="text-black">{{x.title}}</a></h2>
+                        </div><!-- /.box-header -->
+                        <div class="box-body" style="word-wrap: break-word;font-size: 14px;">
+                            {{x.body | limitTo:1000}}<span ng-if="x.body.length > 1000">...</span>
+                            <h4><a ng-href="?id={{x.id}}" class="pull-right">Continue Reading <i class="fa fa-arrow-right"></i></a></h4>
+                        </div><!-- /.box-body -->
+                    </div><!-- /.box -->
+
+                    <div class="box-body">
+                        <nav>
+                            <ul class="pagination pagination-lg" ng-controller="blog.pagination">
+                                <li ng-class="{'disabled': !back.enabled}">
+                                    <a ng-href="?{{param}}{{back.enabled ? '&page='+back.page: '#'}}" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                </li>
+                                <li ng-repeat="x in btn" ng-class="{'active': x.active}">
+                                    <a ng-href="?{{param}}&page={{x.page}}">{{x.page}}</a>
+                                </li>
+                                <li ng-class="{'disabled': !next.enabled}">
+                                    <a ng-href="?{{param}}{{next.enabled ? '&page='+next.page: '#'}}" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="box box-default" ng-controller="blog.categories">
+                        <div class="box-header with-border">
+                            <h3 class="box-title">Categories</h3>
+                        </div><!-- /.box-header -->
+                        <div class="box-body">
+                            <a href="." class="list-group-item list-group-item-info" ng-class="{'active': !clear}" style="margin-bottom: 5px;border-radius: 4px;">All</a>
+                            <div class="list-group">
+                                <a ng-repeat="x in categories" class="list-group-item" ng-class="{'active': x.active}" ng-href="?category={{x.id}}">
+                                    {{x.name}}
+                                    <span class="label label-primary pull-right">{{x.size}}</span>
+                                </a>
+                            </div>
+                        </div><!-- /.box-body -->
+                    </div><!-- /.box -->
+
+                    <!-- TODO Something Else needs to go here -->
+                    <div class="box box-default">
+                        <div class="box-header with-border">
+                            <h3 class="box-title">Another Item</h3>
+                        </div><!-- /.box-header -->
+                        <div class="box-body">
+
+                        </div><!-- /.box-body -->
+                    </div><!-- /.box -->
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+<script src="../library/jQuery/jQuery-2.1.4.min.js" type="text/javascript"></script>
+<script src="../library/AngularJS/angular.min.js" type="text/javascript"></script>
+<script src="../library/AngularJS/angular-cookies.min.js" type="text/javascript"></script>
+<script src="../library/AngularJS/angular-sanitize.min.js" type="text/javascript"></script>
+<script src="../library/AngularJS/ng-file-upload.min.js" type="text/javascript"></script>
+<script src="../library/AngularJS/ng-file-upload-shim.min.js" type="text/javascript"></script>
+<script src="../library/Handsworth-Graduation/js/controller.js" type="text/javascript"></script>
+<script>taskApp.value("pathStarter", "../")</script>
+<script src="../library/Bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="../library/slimScroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="../library/fastclick/fastclick.js" type="text/javascript"></script>
+<script src="../library/Handsworth-Graduation/js/app.js" type="text/javascript"></script>
+</body>
+</html>

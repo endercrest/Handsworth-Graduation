@@ -1,3 +1,57 @@
+[ng\:cloak], [ng-cloak], .ng-cloak {
+    display: none !important;
+}
+
+a[ng-click]{
+    cursor: pointer;
+}
+
+.btn-navy {
+    color: #fff;
+    background-color: #0F166C;
+    border-color: #06086c;
+}
+.btn-navy:hover,
+.btn-navy:focus,
+.btn-navy.focus,
+.btn-navy:active,
+.btn-navy.active,
+.open > .dropdown-toggle.btn-navy {
+    color: #fff;
+    background-color: #041263;
+    border-color: #06056c;
+}
+.btn-navy:active,
+.btn-navy.active,
+.open > .dropdown-toggle.btn-navy {
+    background-image: none;
+}
+.btn-navy.disabled,
+.btn-navy[disabled],
+fieldset[disabled] .btn-navy,
+.btn-navy.disabled:hover,
+.btn-navy[disabled]:hover,
+fieldset[disabled] .btn-navy:hover,
+.btn-navy.disabled:focus,
+.btn-navy[disabled]:focus,
+fieldset[disabled] .btn-navy:focus,
+.btn-navy.disabled.focus,
+.btn-navy[disabled].focus,
+fieldset[disabled] .btn-navy.focus,
+.btn-navy.disabled:active,
+.btn-navy[disabled]:active,
+fieldset[disabled] .btn-navy:active,
+.btn-navy.disabled.active,
+.btn-navy[disabled].active,
+fieldset[disabled] .btn-navy.active {
+    background-color: #030041;
+    border-color: #010035;
+}
+.btn-navy .badge {
+    color: #0F166C;
+    background-color: #fff;
+}
+
 .blur{
     background:url('http://test.endercrest.com/style/Handsworth-Graduation/img/loginbg.jpeg') no-repeat center;
     background-size:cover;
@@ -69,4 +123,8 @@
     font-size:45px;
     line-height:180px;
     background:rgba(0,0,0,0.2)
+}
+
+.file-box{
+
 }

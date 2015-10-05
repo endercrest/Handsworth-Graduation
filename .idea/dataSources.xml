@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="2358446194">
-    <data-source source="LOCAL" name="MySQL - endercre_test@just22.justhost.com" uuid="225851dd-7f19-40d6-97a9-6ff52b4104e0">
+  <component name="DataSourceManagerImpl" format="xml" hash="2055183712">
+    <data-source source="LOCAL" name="MySQL - endercre_storm@just22.justhost.com" uuid="288a4e97-292f-4cec-b74d-838aefdb35ff">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://just22.justhost.com:3306/endercre_test</jdbc-url>
+      <jdbc-url>jdbc:mysql://just22.justhost.com:3306/endercre_storm</jdbc-url>
       <driver-properties>
         <property name="zeroDateTimeBehavior" value="convertToNull" />
         <property name="tinyInt1isBit" value="false" />

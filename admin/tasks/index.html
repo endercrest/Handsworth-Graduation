@@ -1,0 +1,375 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tasks</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link href="../../library/Bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../../library/Handsworth-Graduation/css/AdminLTE.min.css" rel="stylesheet" type="text/css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../library/Handsworth-Graduation/css/HandsworthGrad.css" rel="stylesheet" type="text/css"/>
+    <link href="../../library/Handsworth-Graduation/css/skins/skin-royal-blue-light.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../../library/datepicker/datepicker3.css" rel="stylesheet" type="text/css"/>
+    <link href="../../library/iCheck/square/green.css" rel="stylesheet" type="text/css"/>
+
+    <script src="../../library/jQuery/jQuery-2.1.4.min.js" type="text/javascript"></script>
+</head>
+<body class="skin-royal-blue-light sidebar-mini" ng-app="taskApp" ng-controller="task.admin" ng-cloak>
+<div class="wrapper">
+    <!--<div ng-include="'../module/navigation.html'"></div>-->
+    <header class="main-header">
+        <!-- Logo -->
+        <a href="/" class="logo">
+            <!-- mini logo for sidebar mini 50x50 pixels -->
+            <span class="logo-mini"><b>HW</b></span>
+            <!-- logo for regular state and mobile devices -->
+            <span class="logo-lg"><b>Handsworth</b></span>
+        </a>
+        <!-- Header Navbar: style can be found in header.less -->
+        <nav class="navbar navbar-static-top" role="navigation">
+            <!-- Sidebar toggle button-->
+            <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <div class="navbar-custom-menu">
+                <ul class="nav navbar-nav">
+
+                    <!-- User Menu -->
+                    <li class="dropdown user user-menu" ng-controller="nav.accountDrop">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <img ng-if="nav.img" ng-src="../{{nav.img}}" class="user-image" alt="User Image" />
+                            <span class="hidden-xs" ng-bind-html="nav.text"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <!-- User image -->
+                            <li class="user-header" style="height: {{style.height}}">
+                                <img ng-if="info.img" ng-src="../{{info.img}}" class="img-circle" alt="User Image" />
+                                <p>
+                                    {{info.main}}<br>
+                                    <small>{{info.sub}}</small>
+                                </p>
+                            </li>
+                            <!-- Menu Footer-->
+                            <li class="user-footer">
+                                <div class="pull-left">
+                                    <a ng-href="{{buttons.left.url}}" class="btn btn-default btn-flat">{{buttons.left.title}}</a>
+                                </div>
+                                <div class="pull-right">
+                                    <a ng-href="{{buttons.right.url}}" class="btn btn-default btn-flat">{{buttons.right.title}}</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Left side column. contains the logo and sidebar -->
+    <aside class="main-sidebar">
+        <!-- sidebar: style can be found in sidebar.less -->
+        <section class="sidebar">
+            <!-- sidebar menu: : style can be found in sidebar.less -->
+            <ul class="sidebar-menu" ng-controller="nav.pages">
+                <li class="header">MAIN NAVIGATION</li>
+                <li ng-repeat="x in pages.main" ng-class="{'active': x.active}">
+                    <a ng-href="../../{{x.url}}">
+                        <i class="fa fa-{{x.icon}} text-{{x.color}}"></i><span>{{x.name}}</span>
+                    </a>
+                </li>
+                <li ng-if="pages.sub" class="header">MY ACCOUNT</li>
+                <li ng-repeat="x in pages.sub" ng-class="{'active': x.active}">
+                    <a ng-href="../../{{x.url}}">
+                        <i class="fa fa-{{x.icon}} text-{{x.color}}"></i><span>{{x.name}}</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <!-- /.sidebar -->
+    </aside>
+
+
+    <div class="content-wrapper" ng-show="tasksMode">
+        <div class="callout callout-warning" style="font-size: 20px;width: 100%;border-radius: 0;"><i class="fa fa-exclamation-triangle"></i> Site is still under development</div>
+        <section class="content-header">
+            <h1>Manage Tasks<small>A place to manage all the tasks</small></h1>
+            <ol class="breadcrumb">
+                <li><a href="../../../"><i class="fa fa-home"></i> Home</a></li>
+                <li class="active"><a href="../../admin/tasks"><i class="fa fa-tasks"></i>Manage Tasks</a></li>
+            </ol>
+        </section>
+
+        <!-- Main Content -->
+        <section class="content">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="box">
+                        <div class="box-header">
+                            <h3 class="box-title">Tasks</h3>
+                            <div class="box-tools">
+                                <ul class="pagination pagination-sm no-margin pull-right" ng-controller="tasks.admin.pagination">
+                                    <li ng-class="{'disabled': !back.enabled}">
+                                        <a ng-href="?{{back.enabled ? 'page='+back.page: '#'}}">&laquo;</a>
+                                    </li>
+                                    <li ng-repeat="x in btn" ng-class="{'active': x.active}">
+                                        <a ng-href="?{{param}}&page={{x.page}}">{{x.page}}</a>
+                                    </li>
+                                    <li ng-class="{'disabled': !back.enabled}"><a ng-href="?{{next.enabled?'page='+next.page:'#'}}">&raquo;</a></li>
+                                </ul>
+                                <a href="new/" class="btn btn-primary btn-sm pull-right" style="margin-right: 10px;padding:4px 10px;">New Task</a>
+                            </div>
+                        </div><!-- /.box-header -->
+                        <div class="box-body table-responsive no-padding">
+                            <table class="table table-hover" ng-controller="tasks.admin.list">
+                                <tr>
+                                    <th width="20%">Task</th>
+                                    <th width="10%">Due Date</th>
+                                    <th width="50%">Description</th>
+                                    <th width="10%"></th>
+                                    <th width="10%"></th>
+                                </tr>
+                                <tr ng-repeat="x in tasks | orderBy:'due'">
+                                    <td><a href="?task={{x.id}}">{{x.name}}</a></td>
+                                    <td>{{x.due | dueFormat}}</td>
+                                    <td>{{x.description | limitTo:90}}<span ng-if="x.description.length > 90">...</span></td>
+                                    <td></td>
+                                    <td><a href="?task={{x.id}}">Edit Tasks <i class="fa fa-arrow-right"></i></a></td>
+                                </tr>
+                            </table>
+                            <!--<span class="pull-right" style="padding:5px;">Showing 19 of 46</span>-->
+                        </div><!-- /.box-body -->
+                    </div><!-- /.box -->
+                </div>
+                <div class="col-md-3">
+                    <div class="box">
+                        <div class="box-header with-border">
+                            <h3 class="box-title">Reports</h3>
+                        </div><!-- /.box-header -->
+                        <div class="box-body">
+                            <form>
+                                <div class="form-group">
+                                    <label>Types</label>
+                                    <select class="form-control" name="report" title="Types">
+                                        <option>Complete Overview</option>
+                                        <option>Missing Tasks</option>
+                                        <option>Upcoming Tasks</option>
+                                        <option>Some other report</option>
+                                        <option>Report type 2</option>
+                                        <option>Report</option>
+                                    </select>
+                                </div><!-- /.form-group -->
+                                <button type="submit" class="btn btn-success btn-block btn-flat disabled">Generate</button>
+                            </form>
+                        </div><!-- /.box-body -->
+                    </div><!-- /.box -->
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="content-wrapper"  ng-show="!tasksMode" ng-controller="task.admin.info" ng-cloak>
+        <div class="callout callout-warning" style="font-size: 20px;width: 100%;border-radius: 0;"><i class="fa fa-exclamation-triangle"></i> Site is still under development</div>
+        <section class="content-header">
+            <h1>Task <small>{{task.name}}</small></h1>
+            <ol class="breadcrumb">
+                <li><a href="../../"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="../../admin/tasks/"><i class="fa fa-tasks"></i>Manage Tasks</a></li>
+                <li><a href=""><i class="fa fa-pencil"></i> Task - {{task.name}}</a></li>
+            </ol>
+        </section>
+
+        <!-- Main Content -->
+        <section class="content">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="box">
+                        <div class="box-header with-border">
+                            <h3 class="box-title">Information</h3>
+                        </div><!-- /.box-header -->
+                        <div class="box-body">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h4 style="font-weight: bold">Task Name:</h4>
+                                        <input name="taskName" type="text" value="{{task.name}}" title="Task Name" class="form-control">
+
+                                        <h4 style="font-weight: bold">Description:</h4>
+                                        <textarea name="taskDescription" rows="5" title="Description" style="resize: vertical;" class="form-control">{{task.description}}</textarea>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h4 style="font-weight: bold">Due Date:</h4>
+                                        <input name="taskDue" id="datepick" value="{{task.due | dueFormat2}}" title="Due Date" class="form-control">
+
+                                        <h4 style="font-weight: bold">Global Task: </h4>
+                                        <select title="Global Task" class="form-control" name="taskGlobal">
+                                            <option value="1" ng-selected="task.global == 1">true</option>
+                                            <option value="0" ng-selected="task.global == 0">false</option>
+                                        </select>
+
+                                        <h4 style="font-weight: bold">Allowed File Types: </h4>
+                                    </div>
+                                </div>
+                                <button ng-hide="task.status == 'Accepted' || task.status == 'Pending'" type="submit" class="btn btn-success btn-block btn-lg" style="margin-top:10px;" ng-click="submitUpdate()">Update Task</button>
+                            </form>
+                        </div><!-- /.box-body -->
+                    </div><!-- /.box -->
+
+                    <div class="box" ng-controller="task.admin.assign">
+                        <div class="box-header with-border">
+                            <h3 class="box-title">Student Assignment</h3>
+                        </div><!-- /.box-header -->
+                        <div class="box-body">
+                            <div class="row">
+                                <div class="col-md-3"></div>
+                                <div class="col-md-3"></div>
+                                <div class="col-md-3"></div>
+                                <div class="col-md-3">
+                                    <div class="input-group">
+                                        <span class="input-group-addon" id="basic-addon1"><span class="fa fa-search"></span></span>
+                                        <input type="text" class="form-control" placeholder="Search" ng-model="search">
+                                    </div>
+                                </div>
+                                <div class="col-lg-5">
+                                    <h3>Students Unassigned</h3>
+                                    <div class="table-responsive table-bordered" style="max-height: 500px;">
+                                        <table class="table table-hover table-condensed">
+                                            <thead>
+                                            <tr>
+                                                <th><input id="unassignedSelector" onclick="selectAssigned()" ng-iselect type="checkbox" title="Select All"/></th>
+                                                <th width="60%">Name</th>
+                                                <th width="40%">Student ID</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr ng-repeat="x in unassigned | orderBy:'last_name' | filter:search">
+                                                    <td><input id="{{x.id}}-unassigned" name="unassigned" ng-unassignon ng-iselect type="checkbox" title="Select {{x.first_name}} {{x.last_name}}"/></td>
+                                                    <td>{{x.first_name}} {{x.last_name}}</td>
+                                                    <td>{{x.student_id}}</td>
+                                                </tr>
+                                            </tbody>
+                                            <script>
+                                                $("#unassignedSelector")
+                                                        .on("ifChecked", function(event){
+                                                            $('[name=unassigned]').iCheck("check");
+                                                        })
+                                                        .on("ifUnchecked", function(event){
+                                                            $('[name=unassigned]').iCheck("uncheck");
+                                                        });
+                                            </script>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 center-block">
+                                    <button class="btn btn-primary btn center-block" ng-click="unassignButton()" style="font-size:20px;">&laquo;</button>
+                                    <button class="btn btn-primary btn center-block" ng-click="assignButton()" style="font-size:20px;margin-top:5px;">&raquo;</button>
+                                </div>
+                                <div class="col-lg-5">
+                                    <h3>Students Assigned</h3>
+                                    <div class="table-responsive table-bordered" style="max-height: 500px;">
+                                        <table class="table table-hover table-condensed">
+                                            <thead>
+                                                <tr>
+                                                    <th><input id="assignedSelector" ng-iselect type="checkbox" title="Select All"/></th>
+                                                    <th width="60%">Name</th>
+                                                    <th width="40%">Student ID</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr ng-repeat="x in assigned | orderBy:'last_name' | filter:search">
+                                                <td><input id="{{x.id}}-assigned" ng-assignon name="assigned" ng-iselect type="checkbox" title="Select {{x.first_name}} {{x.last_name}}"/></td>
+                                                <td>{{x.first_name}} {{x.last_name}}</td>
+                                                <td>{{x.student_id}}</td>
+                                            </tr>
+                                            </tbody>
+                                            <script>
+                                                $("#assignedSelector")
+                                                        .on("ifChecked", function(event){
+                                                            $('[name=assigned]').iCheck("check");
+                                                        })
+                                                        .on("ifUnchecked", function(event){
+                                                            $('[name=assigned]').iCheck("uncheck");
+                                                        });
+                                            </script>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- /.box-body -->
+                    </div><!-- /.box -->
+                </div>
+                <div class="col-md-3">
+                    <div class="box" ng-controller="task.admin.files">
+                        <div class="box-header with-border">
+                            <h3 class="box-title">Task Files</h3>
+                        </div><!-- /.box-header -->
+                        <div class="box-body">
+                            <div class="row">
+                                <div class="col-xs-12" ng-repeat="x in files" id="{{x.id}}-taskFile">
+                                    <div class="well well-sm">
+                                        <a ng-href="../../{{x.path}}" download>
+                                            <div class="row">
+                                                <div class="col-xs-2 text-black">
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fa fa-file-o fa-stack-2x"></i>
+                                            <i class="fa fa-arrow-down fa-stack-1x" style="top: 3px;"></i>
+                                        </span>
+                                                </div>
+                                                <div class="col-xs-10 text-black">
+                                                    {{x.name}}<br>
+                                                    <small class="text-muted">{{x.description}}</small>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a style="position: absolute;right: 25px;top:8px;" ng-click="delete(x.id)" class="pull-right text-black"><i class="fa fa-times"></i></a>
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-12">
+                                    <div class="well well-sm" id="uploadedFiles">
+                                        <form name="uploadForm">
+                                            <h5>Name</h5>
+                                            <input type="text" name="uploadName" class="form-control" title="Name" style="width: 100%;" required>
+                                            <h5>Brief Description</h5>
+                                            <input type="text" name="uploadDescription" class="form-control" title="Description" style="width: 100%;" required>
+                                            <h5>File</h5>
+                                            <input type="file" ngf-select ng-model="file" id="file" name="file" ngf-max-size="5MB" required>
+                                            <button type="submit" class="btn btn-primary btn-block" style="margin-top: 10px;" ng-click="submit()">Add</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- /.box-body -->
+                    </div><!-- /.box -->
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+<script src="../../library/AngularJS/angular.min.js" type="text/javascript"></script>
+<script src="../../library/AngularJS/angular-cookies.min.js" type="text/javascript"></script>
+<script src="../../library/AngularJS/angular-sanitize.min.js" type="text/javascript"></script>
+<script src="../../library/AngularJS/ng-file-upload.min.js" type="text/javascript"></script>
+<script src="../../library/AngularJS/ng-file-upload-shim.min.js" type="text/javascript"></script>
+<script src="../../library/Handsworth-Graduation/js/controller.js" type="text/javascript"></script>
+<script>taskApp.value("pathStarter", "../../")</script>
+<script src="../../library/Bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="../../library/slimScroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="../../library/fastclick/fastclick.js" type="text/javascript"></script>
+<script src="../../library/Handsworth-Graduation/js/app.js" type="text/javascript"></script>
+<script src="../../library/select2/select2.full.min.js" type="text/javascript"></script>
+<script src="../../library/datepicker/bootstrap-datepicker.js" type="text/javascript"></script>
+<script src="../../library/iCheck/icheck.min.js" type="text/javascript"></script>
+<script>
+    //Enable the select2 Elements on the page
+    $(".test").select2({
+        placeholder: "Select a report type",
+        multiple: true
+    });
+    $("#datepick").datepicker({
+        format: "yyyy-mm-dd"
+    });
+</script>
+</body>
+</html>

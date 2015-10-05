@@ -109,7 +109,7 @@ $.AdminLTE.options = {
     green: "#00a65a",
     aqua: "#00c0ef",
     yellow: "#f39c12",
-    blue: "#0073b7",
+    blue: "#111B87",
     navy: "#001F3F",
     teal: "#39CCCC",
     olive: "#3D9970",
@@ -311,8 +311,8 @@ function _init() {
       var screenSizes = $.AdminLTE.options.screenSizes;
 
       //Enable sidebar toggle
-      $(toggleBtn).on('click', function (e) {
-        e.preventDefault();
+      $(toggleBtn).click(function () {
+        //e.preventDefault();
 
         //Enable sidebar push menu
         if ($(window).width() > (screenSizes.sm - 1)) {

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="MySQL - endercre_test@just22.justhost.com" uuid="225851dd-7f19-40d6-97a9-6ff52b4104e0">
+    <data-source name="MySQL - endercre_storm@just22.justhost.com" uuid="288a4e97-292f-4cec-b74d-838aefdb35ff">
       <secret-storage>master_key</secret-storage>
-      <user-name>endercre</user-name>
-      <schema-pattern>endercre_test.*</schema-pattern>
-      <default-schemas>endercre_test.*</default-schemas>
+      <user-name>endercre_storm</user-name>
+      <schema-pattern>endercre_storm.*</schema-pattern>
+      <default-schemas>endercre_storm.*</default-schemas>
     </data-source>
   </component>
 </project>

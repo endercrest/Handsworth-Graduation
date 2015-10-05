@@ -2,18 +2,59 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/examples/navbar-student.php" line="158" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/library/Handsworth-Graduation/js/controller.js" line="669" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/index.html" line="108" mnemonic="5" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4549705-2a7e-46cc-b580-c91c02e7d63a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/navbar-staff.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/select2/select2.full.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/select2/select2.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/task-student.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/tasks-student.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/Handsworth-Graduation/css/AdminLTE.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/PHPExcel/PHPExcel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/AngularJS/angular-cookies.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/AngularJS/angular-sanitize.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/AngularJS/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/authentication.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/blog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/category.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/claim.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/Handsworth-Graduation/js/controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/archive/create_session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/archive/get_session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tasks/new/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/users/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/login/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logout/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/register/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/navigation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/AngularJS/ng-file-upload-shim.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/AngularJS/ng-file-upload.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/Handsworth-Graduation/css/skins/skin-royal-blue-light.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/task.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/token.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/user.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/archive/validate_credentials.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/Handsworth-Graduation/img/avatar.png" afterPath="$PROJECT_DIR$/style/Handsworth-Graduation/img/avatar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Handsworth-Graduation/css/HandsworthGrad.css" afterPath="$PROJECT_DIR$/library/Handsworth-Graduation/css/HandsworthGrad.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/blog.php" afterPath="$PROJECT_DIR$/examples/blog.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/navbar-guest.php" afterPath="$PROJECT_DIR$/examples/navbar-guest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/navbar-student.php" afterPath="$PROJECT_DIR$/examples/navbar-student.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Handsworth-Graduation/js/app.js" afterPath="$PROJECT_DIR$/library/Handsworth-Graduation/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/login.php" afterPath="$PROJECT_DIR$/examples/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/navbar-staff.php" afterPath="$PROJECT_DIR$/examples/navbar-staff.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/task-student.php" afterPath="$PROJECT_DIR$/examples/task-student.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/tasks-student.php" afterPath="$PROJECT_DIR$/examples/tasks-student.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\Development\Handsworth-Graduation\index.php" afterPath="$PROJECT_DIR$/admin/tasks/index.html" />
     </list>
     <ignored path="GradWebsite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,52 +88,199 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="blog.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/blog.php">
+      <file leaf-file-name="controller.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/library/Handsworth-Graduation/js/controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.05685619">
+              <caret line="849" column="14" selection-start-line="849" selection-start-column="14" selection-end-line="849" selection-end-column="14" />
+              <folding>
+                <element signature="e#24715#27019#0" expanded="false" />
+                <element signature="e#27021#29444#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/users/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="118" column="47" selection-start-line="118" selection-start-column="47" selection-end-line="118" selection-end-column="58" />
+              <caret line="118" column="136" selection-start-line="118" selection-start-column="136" selection-end-line="118" selection-end-column="136" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#2;n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/tasks/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="122" column="39" selection-start-line="122" selection-start-column="39" selection-end-line="122" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task-student.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/task-student.php">
+      <file leaf-file-name="task.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/task.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+              <caret line="872" column="21" selection-start-line="872" selection-start-column="21" selection-end-line="872" selection-end-column="21" />
+              <folding>
+                <marker date="1443664051256" expanded="true" signature="2829:2913" placeholder="SELECT task_..tasks.assigned..." />
+                <marker date="1443664051256" expanded="true" signature="3721:3827" placeholder="SELECT id FR..tasks.assigned..." />
+                <marker date="1443664051256" expanded="true" signature="4059:4150" placeholder="SELECT `stat..tasks.status..." />
+                <marker date="1443664051256" expanded="true" signature="5141:5183" placeholder="SELECT id FR..tasks..." />
+                <marker date="1443664051256" expanded="true" signature="7595:7640" placeholder="SELECT id FR..tasks.files..." />
+                <marker date="1443664051256" expanded="true" signature="8842:8864" placeholder="SELECT id FR..tasks..." />
+                <marker date="1443664051256" expanded="true" signature="9060:9105" placeholder="SELECT id FR..tasks.files..." />
+                <marker date="1443664051256" expanded="true" signature="11066:11113" placeholder="SELECT path ..tasks.user_files..." />
+                <marker date="1443664051256" expanded="true" signature="12267:12348" placeholder="SELECT id FR..tasks.user_files..." />
+                <marker date="1443664051256" expanded="true" signature="12907:12954" placeholder="SELECT path ..tasks.user_files..." />
+                <marker date="1443664051256" expanded="true" signature="14111:14199" placeholder="SELECT task_..tasks.assigned..." />
+                <marker date="1443664051256" expanded="true" signature="14415:14496" placeholder="SELECT id FR..tasks.user_files..." />
+                <marker date="1443664051256" expanded="true" signature="15089:15136" placeholder="SELECT path ..tasks.user_files..." />
+                <marker date="1443664051256" expanded="true" signature="16480:16535" placeholder="SELECT user_..tasks.user_files..." />
+                <marker date="1443664051256" expanded="true" signature="16767:16848" placeholder="SELECT id FR..tasks.user_files..." />
+                <marker date="1443664051256" expanded="true" signature="17441:17488" placeholder="SELECT path ..tasks.user_files..." />
+                <marker date="1443664051256" expanded="true" signature="18685:18750" placeholder="SELECT user_..tasks.assigned..." />
+                <marker date="1443664051256" expanded="true" signature="19030:19111" placeholder="SELECT id FR..tasks.user_files..." />
+                <marker date="1443664051256" expanded="true" signature="19702:19749" placeholder="SELECT path ..tasks.user_files..." />
+                <marker date="1443664051256" expanded="true" signature="21890:22004" placeholder="SELECT id FR..tasks.assigned..." />
+                <marker date="1443664051256" expanded="true" signature="22388:22502" placeholder="SELECT id FR..tasks.assigned..." />
+                <marker date="1443664051256" expanded="true" signature="22722:22817" placeholder="SELECT `stat..tasks.status..." />
+                <marker date="1443664051256" expanded="true" signature="23310:23424" placeholder="SELECT id FR..tasks.assigned..." />
+                <marker date="1443664051256" expanded="true" signature="23644:23740" placeholder="SELECT `comm..tasks.status..." />
+                <marker date="1443664051256" expanded="true" signature="24315:24402" placeholder="SELECT task_..tasks.assigned..." />
+                <marker date="1443664051256" expanded="true" signature="25234:25329" placeholder="SELECT `stat..tasks.status..." />
+                <marker date="1443664051256" expanded="true" signature="25733:25829" placeholder="SELECT `comm..tasks.status..." />
+                <marker date="1443664051256" expanded="true" signature="26901:27007" placeholder="SELECT id FR..tasks.assigned..." />
+                <marker date="1443664051256" expanded="true" signature="28947:29020" placeholder="INSERT INTO ..." />
+                <marker date="1443664051256" expanded="true" signature="28947:29033" placeholder="INSERT INTO ..." />
+                <marker date="1443664051256" expanded="true" signature="28947:29078" placeholder="INSERT INTO ..." />
+                <marker date="1443664051256" expanded="true" signature="29387:29428" placeholder="SELECT id FR..users..." />
+                <marker date="1443664051256" expanded="true" signature="29651:29679" placeholder="INSERT INTO ..." />
+                <marker date="1443664051256" expanded="true" signature="29651:29716" placeholder="INSERT INTO ..." />
+                <marker date="1443664051256" expanded="true" signature="29651:29729" placeholder="INSERT INTO ..." />
+                <marker date="1443664051256" expanded="true" signature="29651:29743" placeholder="INSERT INTO ..." />
+                <marker date="1443664051256" expanded="true" signature="29651:29756" placeholder="INSERT INTO ..." />
+                <marker date="1443664051256" expanded="true" signature="30098:30205" placeholder="INSERT INTO ..." />
+                <marker date="1443664051256" expanded="true" signature="30962:30978" placeholder="SELECT id FR..." />
+                <marker date="1443664051256" expanded="true" signature="30962:31009" placeholder="SELECT id FR..tasks.assigned..." />
+                <marker date="1443664051256" expanded="true" signature="30962:31010" placeholder="SELECT id FR..tasks.assigned..." />
+                <marker date="1443664051256" expanded="true" signature="30962:31036" placeholder="SELECT id FR..tasks.assigned..." />
+                <marker date="1443664051256" expanded="true" signature="30962:31037" placeholder="SELECT id FR..tasks.assigned..." />
+                <marker date="1443664051256" expanded="true" signature="30962:31038" placeholder="SELECT id FR..tasks.assigned..." />
+                <marker date="1443664051256" expanded="true" signature="31329:31366" placeholder="UPDATE `task..." />
+                <marker date="1443664051256" expanded="true" signature="31329:31367" placeholder="UPDATE `task..." />
+                <marker date="1443664051256" expanded="true" signature="31329:31398" placeholder="UPDATE `task..." />
+                <marker date="1443664051256" expanded="true" signature="31329:31399" placeholder="UPDATE `task..." />
+                <marker date="1443664051256" expanded="true" signature="31329:31427" placeholder="UPDATE `task..." />
+                <marker date="1443664051256" expanded="true" signature="31329:31429" placeholder="UPDATE `task..." />
+                <marker date="1443664051256" expanded="true" signature="31329:31430" placeholder="UPDATE `task..." />
+                <marker date="1443664051256" expanded="true" signature="31329:31448" placeholder="UPDATE `task..." />
+                <marker date="1443664051256" expanded="true" signature="31601:31706" placeholder="INSERT INTO ..." />
+                <marker date="1443664051256" expanded="true" signature="32000:32107" placeholder="INSERT INTO ..." />
+                <marker date="1443664051256" expanded="true" signature="32661:32736" placeholder="SELECT id FR..tasks.assigned..." />
+                <marker date="1443664051256" expanded="true" signature="32941:33081" placeholder="INSERT INTO ..." />
+                <marker date="1443664051256" expanded="true" signature="35177:35217" placeholder="SELECT stude..users..." />
+                <marker date="1443664051256" expanded="true" signature="35795:35874" placeholder="SELECT path ..tasks.user_files..." />
+                <marker date="1443664051256" expanded="true" signature="38037:38185" placeholder="INSERT INTO ..." />
+                <marker date="1443664051256" expanded="true" signature="40963:41119" placeholder="INSERT INTO ..." />
+                <marker date="1443664051256" expanded="true" signature="44365:44416" placeholder="UPDATE `task..." />
+                <marker date="1443664051256" expanded="true" signature="44592:44652" placeholder="UPDATE `task..." />
+                <marker date="1443664051256" expanded="true" signature="45476:45555" placeholder="SELECT id FR..tasks.assigned..." />
+                <marker date="1443664051256" expanded="true" signature="45703:45804" placeholder="UPDATE `task..." />
+                <marker date="1443664051256" expanded="true" signature="45989:46106" placeholder="INSERT INTO ..." />
+                <marker date="1443664051256" expanded="true" signature="46418:46529" placeholder="INSERT INTO ..." />
+                <marker date="1443664051256" expanded="true" signature="47916:47963" placeholder="SELECT path ..tasks.user_files..." />
+                <marker date="1443664051256" expanded="true" signature="48212:48254" placeholder="DELETE FROM ..." />
+                <marker date="1443664051256" expanded="true" signature="48441:48483" placeholder="SELECT path ..tasks.files..." />
+                <marker date="1443664051256" expanded="true" signature="48732:48769" placeholder="DELETE FROM ..." />
+                <marker date="1443664051256" expanded="true" signature="49293:49368" placeholder="SELECT id FR..tasks.assigned..." />
+                <marker date="1443664051256" expanded="true" signature="49496:49545" placeholder="DELETE FROM ..." />
+                <marker date="1443664051256" expanded="true" signature="49640:49692" placeholder="SELECT path ..tasks.user_files..." />
+                <marker date="1443664051256" expanded="true" signature="49892:49964" placeholder="DELETE FROM ..." />
+                <marker date="1443664051256" expanded="true" signature="50024:50098" placeholder="DELETE FROM ..." />
+                <marker date="1443664051256" expanded="true" signature="50240:50288" placeholder="SELECT id FR..tasks.assigned..." />
+                <marker date="1443664051256" expanded="true" signature="50416:50465" placeholder="DELETE FROM ..." />
+                <marker date="1443664051256" expanded="true" signature="50560:50612" placeholder="SELECT path ..tasks.user_files..." />
+                <marker date="1443664051256" expanded="true" signature="50821:50868" placeholder="SELECT path ..tasks.files..." />
+                <marker date="1443664051256" expanded="true" signature="51068:51113" placeholder="DELETE FROM ..." />
+                <marker date="1443664051256" expanded="true" signature="51173:51220" placeholder="DELETE FROM ..." />
+                <marker date="1443664051256" expanded="true" signature="51280:51322" placeholder="DELETE FROM ..." />
+                <marker date="1443664051256" expanded="true" signature="51382:51413" placeholder="DELETE FROM ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library/Bootstrap/css/bootstrap.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="52295" selection-start-line="4" selection-start-column="52295" selection-end-line="4" selection-end-column="52312" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tasks-student.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examples/tasks-student.php">
+      <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/user.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="370" column="54" selection-start-line="370" selection-start-column="54" selection-end-line="370" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HandsworthGrad.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/Handsworth-Graduation/css/HandsworthGrad.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="105" />
-              <folding />
+              <caret line="150" column="40" selection-start-line="150" selection-start-column="40" selection-end-line="150" selection-end-column="40" />
+              <folding>
+                <marker date="1443933956171" expanded="true" signature="1972:2012" placeholder="SELECT stude..users..." />
+                <marker date="1443933956171" expanded="true" signature="2842:2917" placeholder="SELECT id FR..users.secondary_field_types..." />
+                <marker date="1443933956171" expanded="true" signature="3259:3350" placeholder="SELECT `valu..users.secondary_info..." />
+                <marker date="1443933956171" expanded="true" signature="4106:4181" placeholder="SELECT id FR..users.secondary_field_types..." />
+                <marker date="1443933956171" expanded="true" signature="4523:4614" placeholder="SELECT `valu..users.secondary_info..." />
+                <marker date="1443933956171" expanded="true" signature="5566:5618" placeholder="SELECT user...users..." />
+                <marker date="1443933956171" expanded="true" signature="5566:5630" placeholder="SELECT user...users..." />
+                <marker date="1443933956171" expanded="true" signature="5566:5652" placeholder="SELECT user...users..." />
+                <marker date="1443933956171" expanded="true" signature="5566:6014" placeholder="SELECT user...users..." />
+                <marker date="1443933956171" expanded="true" signature="5566:6026" placeholder="SELECT user...users..." />
+                <marker date="1443933956171" expanded="true" signature="5566:6034" placeholder="SELECT user...users..." />
+                <marker date="1443933956171" expanded="true" signature="5566:6055" placeholder="SELECT user...users..." />
+                <marker date="1443933956171" expanded="true" signature="5566:6111" placeholder="SELECT user...users..." />
+                <marker date="1443933956171" expanded="true" signature="5566:6119" placeholder="SELECT user...users..." />
+                <marker date="1443933956171" expanded="true" signature="5566:6140" placeholder="SELECT user...users..." />
+                <marker date="1443933956171" expanded="true" signature="5566:6141" placeholder="SELECT FROM ..users..." />
+                <marker date="1443933956171" expanded="true" signature="6984:7024" placeholder="SELECT stude..users..." />
+                <marker date="1443933956171" expanded="true" signature="7458:7498" placeholder="SELECT permi..users..." />
+                <marker date="1443933956171" expanded="true" signature="8420:8495" placeholder="SELECT id FR..users.secondary_field_types..." />
+                <marker date="1443933956171" expanded="true" signature="8865:8951" placeholder="SELECT `valu..users.secondary_info..." />
+                <marker date="1443933956171" expanded="true" signature="10949:11037" placeholder="INSERT INTO ..." />
+                <marker date="1443933956171" expanded="true" signature="11100:11157" placeholder="SELECT id FR..users..." />
+                <marker date="1443933956171" expanded="true" signature="11417:11624" placeholder="INSERT INTO ..." />
+                <marker date="1443933956171" expanded="true" signature="11730:11759" placeholder="SELECT id,`g..tasks..." />
+                <marker date="1443933956171" expanded="true" signature="11987:12087" placeholder="INSERT INTO ..." />
+                <marker date="1443933956171" expanded="true" signature="12365:12472" placeholder="INSERT INTO ..." />
+                <marker date="1443933956171" expanded="true" signature="12620:12672" placeholder="INSERT INTO ..." />
+                <marker date="1443933956171" expanded="true" signature="13130:13276" placeholder="INSERT INTO ..." />
+                <marker date="1443933956171" expanded="true" signature="13335:13401" placeholder="SELECT id FR..users..." />
+                <marker date="1443933956171" expanded="true" signature="14259:14504" placeholder="INSERT INTO ..." />
+                <marker date="1443933956171" expanded="true" signature="14679:14708" placeholder="SELECT id,`g..tasks..." />
+                <marker date="1443933956171" expanded="true" signature="14952:15052" placeholder="INSERT INTO ..." />
+                <marker date="1443933956171" expanded="true" signature="15346:15453" placeholder="INSERT INTO ..." />
+                <marker date="1443933956171" expanded="true" signature="15657:15709" placeholder="INSERT INTO ..." />
+                <marker date="1443933956171" expanded="true" signature="16851:16905" placeholder="UPDATE users..." />
+                <marker date="1443933956171" expanded="true" signature="17146:17200" placeholder="UPDATE users..." />
+                <marker date="1443933956171" expanded="true" signature="17399:17468" placeholder="UPDATE `user..." />
+                <marker date="1443933956171" expanded="true" signature="17650:17722" placeholder="SELECT id FR..users.secondary_field_types..." />
+                <marker date="1443933956171" expanded="true" signature="18022:18127" placeholder="UPDATE `user..." />
+                <marker date="1443933956171" expanded="true" signature="18658:18687" placeholder="DELETE FROM ..." />
+                <marker date="1443933956171" expanded="true" signature="18751:18800" placeholder="DELETE FROM ..." />
+                <marker date="1443933956171" expanded="true" signature="18864:18899" placeholder="DELETE FROM ..." />
+                <marker date="1443933956171" expanded="true" signature="18963:19014" placeholder="DELETE FROM ..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,15 +313,46 @@
         <option value="$PROJECT_DIR$/modules/register.php" />
         <option value="$PROJECT_DIR$/modules/navbar.php" />
         <option value="$PROJECT_DIR$/examples/register.php" />
-        <option value="$PROJECT_DIR$/examples/login.php" />
         <option value="$PROJECT_DIR$/examples/navbar-guest.php" />
         <option value="$PROJECT_DIR$/library/Handsworth-Graduation/css/AdminLTE.min.css" />
         <option value="$PROJECT_DIR$/examples/blog.php" />
         <option value="$PROJECT_DIR$/examples/navbar-student.php" />
-        <option value="$PROJECT_DIR$/examples/task-student.php" />
         <option value="$PROJECT_DIR$/examples/navbar-staff.php" />
-        <option value="$PROJECT_DIR$/library/Handsworth-Graduation/css/HandsworthGrad.css" />
+        <option value="$PROJECT_DIR$/examples/login.php" />
+        <option value="$PROJECT_DIR$/examples/task-student.php" />
+        <option value="$PROJECT_DIR$/install.txt" />
+        <option value="$PROJECT_DIR$/api/validate_credentials.php" />
+        <option value="$PROJECT_DIR$/api/get_session.php" />
+        <option value="$PROJECT_DIR$/api/create_session.php" />
+        <option value="$PROJECT_DIR$/api/archive/create_session.php" />
+        <option value="$PROJECT_DIR$/api/category.php" />
+        <option value="$PROJECT_DIR$/blog/test.html" />
+        <option value="$PROJECT_DIR$/testing.php" />
+        <option value="$PROJECT_DIR$/api/test.php" />
+        <option value="$PROJECT_DIR$/module/navigation.html" />
         <option value="$PROJECT_DIR$/examples/tasks-student.php" />
+        <option value="$PROJECT_DIR$/library/Handsworth-Graduation/css/skins/skin-royal-blue-light.min.css" />
+        <option value="$PROJECT_DIR$/library/Handsworth-Graduation/js/app.js" />
+        <option value="$PROJECT_DIR$/library/Bootstrap/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/task/index.html" />
+        <option value="$PROJECT_DIR$/library/config.php" />
+        <option value="$PROJECT_DIR$/logout/index.html" />
+        <option value="$PROJECT_DIR$/blog/index.html" />
+        <option value="$PROJECT_DIR$/api/blog.php" />
+        <option value="$PROJECT_DIR$/api/token.php" />
+        <option value="$PROJECT_DIR$/api/authentication.php" />
+        <option value="$PROJECT_DIR$/library/Handsworth-Graduation/css/HandsworthGrad.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/admin/tasks/index.html" />
+        <option value="$PROJECT_DIR$/admin/tasks/new/index.html" />
+        <option value="$PROJECT_DIR$/api/claim.php" />
+        <option value="$PROJECT_DIR$/register/index.html" />
+        <option value="$PROJECT_DIR$/login/index.html" />
+        <option value="$PROJECT_DIR$/api/task.php" />
+        <option value="$PROJECT_DIR$/tasks/index.html" />
+        <option value="$PROJECT_DIR$/api/user.php" />
+        <option value="$PROJECT_DIR$/admin/users/index.html" />
+        <option value="$PROJECT_DIR$/library/Handsworth-Graduation/js/controller.js" />
       </list>
     </option>
   </component>
@@ -149,10 +368,32 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.4" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-91" />
-    <option name="y" value="50" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JSDuplicatedDeclaration</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -177,6 +418,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -205,7 +448,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
+              <option name="myItemId" value="tasks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -219,11 +462,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="select2" />
+              <option name="myItemId" value="register" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -237,40 +476,140 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
+              <option name="myItemId" value="logout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Handsworth-Graduation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Handsworth-Graduation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Handsworth-Graduation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Handsworth-Graduation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Handsworth-Graduation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Handsworth-Graduation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Handsworth-Graduation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Handsworth-Graduation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Handsworth-Graduation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Handsworth-Graduation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Handsworth-Graduation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Handsworth-Graduation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="new" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/library/Handsworth-Graduation/js/controller.js" />
     <property name="recentsLimit" value="5" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="TODO_SCOPE" value="Project Files" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/library/Handsworth-Graduation/js/controller.js" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Development\Handsworth-Graduation\library\Handsworth-Graduation\css" />
+      <recent name="D:\Development\Handsworth-Graduation\library\Handsworth-Graduation\css\skins" />
+      <recent name="D:\Development\Handsworth-Graduation\library\AngularJS" />
       <recent name="D:\Development\Handsworth-Graduation\library\select2" />
       <recent name="D:\Development\Handsworth-Graduation\examples" />
-      <recent name="D:\Development\Handsworth-Graduation\library\Handsworth-Graduation\js" />
-      <recent name="D:\Development\Handsworth-Graduation\library\fastclick" />
-      <recent name="D:\Development\Handsworth-Graduation\library\slimScroll" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Development\Handsworth-Graduation\library" />
       <recent name="D:\Development\Handsworth-Graduation\style\Handsworth-Graduation\img" />
-      <recent name="D:\Development\Handsworth-Graduation\examples" />
-      <recent name="D:\Development\Handsworth-Graduation\library\Handsworth-Graduation\css" />
-      <recent name="D:\Development\Handsworth-Graduation\library\Bootstrap" />
-      <recent name="D:\Development\Handsworth-Graduation\library\Handsworth-Graduation\CSS" />
+      <recent name="D:\Development\Handsworth-Graduation\library\AngularJS" />
+      <recent name="D:\Development\Handsworth-Graduation" />
+      <recent name="D:\Development\Handsworth-Graduation\library\PHPExcel" />
     </key>
   </component>
   <component name="RunManager">
@@ -382,7 +721,7 @@
       </GitHub>
     </servers>
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -392,14 +731,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-91" y="50" width="1936" height="1056" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20735608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864866" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21641791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2172973" sideWeight="0.4936034" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.07467532" sideWeight="0.5074627" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10021322" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.116883114" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -409,8 +748,8 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32972974" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32864866" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.075675674" sideWeight="0.49253732" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -418,30 +757,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864866" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32972974" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.116883114" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20309168" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -466,265 +781,162 @@
     <option name="LAST_COMMIT_MESSAGE" value="Work on Navigation System&#10;Add Background Image to make login screen nicer" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="7" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/library/Handsworth-Graduation/css/HandsworthGrad.css">
+    <entry file="file://$PROJECT_DIR$/library/AngularJS/angular-cookies.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-          <folding />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/login.php">
+    <entry file="file://$PROJECT_DIR$/library/AngularJS/angular.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="107" />
-          <folding />
+        <state vertical-scroll-proportion="2.5716197">
+          <caret line="117" column="478" selection-start-line="117" selection-start-column="478" selection-end-line="117" selection-end-column="478" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/navbar-staff.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/date.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34535366">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/navbar-guest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9889043">
+          <caret line="80" column="50" selection-start-line="80" selection-start-column="50" selection-end-line="80" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/Handsworth-Graduation/js/app.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.034483">
+          <caret line="12" column="6995" selection-start-line="12" selection-start-column="6974" selection-end-line="12" selection-end-column="6995" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/jQuery/jQuery-2.1.4.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.87222224">
+          <caret line="3" column="20148" selection-start-line="3" selection-start-column="20148" selection-end-line="3" selection-end-column="20148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/Handsworth-Graduation/css/AdminLTE.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.862069">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/AngularJS/angular-sanitize.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="157" column="77" selection-start-line="157" selection-start-column="77" selection-end-line="157" selection-end-column="77" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/navigation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.023578363">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="326" column="16" selection-start-line="326" selection-start-column="16" selection-end-line="326" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/archive/validate_credentials.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.025525525">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/blog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-2.1154423">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/navbar-staff.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2402402">
+          <caret line="75" column="45" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/archive/create_session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2570423">
+          <caret line="47" column="51" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/Handsworth-Graduation/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.018952062">
+          <caret line="554" column="4" selection-start-line="554" selection-start-column="4" selection-end-line="554" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/select2/select2.full.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53103447">
+          <caret line="2" column="2493" selection-start-line="2" selection-start-column="2493" selection-end-line="2" selection-end-column="2493" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.037904125">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/task-student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="359" column="10" selection-start-line="221" selection-start-column="4" selection-end-line="359" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/tasks-student.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="240" column="7" selection-start-line="240" selection-start-column="7" selection-end-line="240" selection-end-column="7" />
-          <folding />
+          <caret line="412" column="49" selection-start-line="412" selection-start-column="49" selection-end-line="412" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/navbar-student.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="225" column="17" selection-start-line="225" selection-start-column="17" selection-end-line="225" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.2857143">
+          <caret line="198" column="31" selection-start-line="198" selection-start-column="31" selection-end-line="198" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/Handsworth-Graduation/css/HandsworthGrad.css">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_7.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-          <folding />
+        <state vertical-scroll-proportion="0.34626865">
+          <caret line="513" column="9" selection-start-line="513" selection-start-column="9" selection-end-line="513" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="107" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/navbar-staff.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="157" column="77" selection-start-line="157" selection-start-column="77" selection-end-line="157" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/blog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="102" column="12" selection-start-line="102" selection-start-column="12" selection-end-line="102" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/navbar-student.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/Handsworth-Graduation/css/HandsworthGrad.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/Handsworth-Graduation/css/AdminLTE.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="30886" selection-start-line="6" selection-start-column="30880" selection-end-line="6" selection-end-column="30886" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="107" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/navbar-staff.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="157" column="77" selection-start-line="157" selection-start-column="77" selection-end-line="157" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/blog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/navbar-student.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/Handsworth-Graduation/css/HandsworthGrad.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/Handsworth-Graduation/css/AdminLTE.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="30886" selection-start-line="6" selection-start-column="30880" selection-end-line="6" selection-end-column="30886" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="107" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/navbar-staff.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="121" column="56" selection-start-line="121" selection-start-column="56" selection-end-line="121" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/blog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/navbar-guest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="97" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/225851dd-7f19-40d6-97a9-6ff52b4104e0/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/.name">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/iCheck/minimal/red.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/jQuery/jQuery-2.1.4.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/Bootstrap/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.660473">
-          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/Handsworth-Graduation/css/skins/skin-black-light.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/slimScroll/jquery.slimscroll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/fastclick/fastclick.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/Handsworth-Graduation/js/app.js">
+    <entry file="file://$PROJECT_DIR$/library/AngularJS/ng-file-upload.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -736,115 +948,368 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/Bootstrap/css/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/library/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/Handsworth-Graduation/img/loginbg.jpeg">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/library/datepicker/locales/bootstrap-datepicker.ar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26086956">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/blog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.2727275">
+          <caret line="227" column="20" selection-start-line="227" selection-start-column="16" selection-end-line="227" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34343433">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/iCheck/icheck.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55878633">
+          <caret line="33" column="14" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/iCheck/icheck.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08292683">
+          <caret line="4" column="371" selection-start-line="4" selection-start-column="371" selection-end-line="4" selection-end-column="371" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7956372">
+          <caret line="172" column="52" selection-start-line="172" selection-start-column="52" selection-end-line="172" selection-end-column="52" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5804598">
-          <caret line="62" column="89" selection-start-line="62" selection-start-column="89" selection-end-line="62" selection-end-column="89" />
+        <state vertical-scroll-proportion="0.040150564">
+          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/navbar-guest.php">
+    <entry file="file://$PROJECT_DIR$/api/authentication.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-50.346153">
-          <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/library/Bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.2982456">
+          <caret line="3087" column="0" selection-start-line="3087" selection-start-column="0" selection-end-line="3131" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/navbar-student.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.3846154">
-          <caret line="225" column="17" selection-start-line="225" selection-start-column="17" selection-end-line="225" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/Handsworth-Graduation/css/AdminLTE.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33274338">
-          <caret line="6" column="37627" selection-start-line="6" selection-start-column="37627" selection-end-line="6" selection-end-column="37627" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/blog.php">
+    <entry file="file://$PROJECT_DIR$/library/Handsworth-Graduation/css/skins/skin-royal-blue-light.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="118" column="47" selection-start-line="118" selection-start-column="47" selection-end-line="118" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/select2/select2.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/select2/select2.full.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/navbar-staff.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846">
-          <caret line="4" column="84" selection-start-line="4" selection-start-column="84" selection-end-line="4" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="105" />
-          <folding />
+          <caret line="0" column="68" selection-start-line="0" selection-start-column="62" selection-end-line="0" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/Handsworth-Graduation/css/HandsworthGrad.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
-          <folding />
+        <state vertical-scroll-proportion="-12.896552">
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/task-student.php">
+    <entry file="file://$PROJECT_DIR$/api/token.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0418535">
+          <caret line="129" column="64" selection-start-line="129" selection-start-column="64" selection-end-line="129" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/tasks/new/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-          <folding />
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/tasks-student.php">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21469575">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/Bootstrap/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="370" column="54" selection-start-line="370" selection-start-column="54" selection-end-line="370" selection-end-column="54" />
+          <caret line="4" column="52295" selection-start-line="4" selection-start-column="52295" selection-end-line="4" selection-end-column="52312" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/logout/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33180252">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/Handsworth-Graduation/css/AdminLTE.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3325031">
+          <caret line="6" column="54998" selection-start-line="6" selection-start-column="54998" selection-end-line="6" selection-end-column="54998" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.26923">
+          <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29962546">
+          <caret line="33" column="176" selection-start-line="33" selection-start-column="176" selection-end-line="33" selection-end-column="176" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/claim.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.78776526">
+          <caret line="94" column="149" selection-start-line="94" selection-start-column="149" selection-end-line="94" selection-end-column="149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33252722">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06367041">
+          <caret line="228" column="26" selection-start-line="228" selection-start-column="26" selection-end-line="229" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#section#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/tasks/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="122" column="39" selection-start-line="122" selection-start-column="39" selection-end-line="122" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/task.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="872" column="21" selection-start-line="872" selection-start-column="21" selection-end-line="872" selection-end-column="21" />
+          <folding>
+            <marker date="1443664051256" expanded="true" signature="2829:2913" placeholder="SELECT task_..tasks.assigned..." />
+            <marker date="1443664051256" expanded="true" signature="3721:3827" placeholder="SELECT id FR..tasks.assigned..." />
+            <marker date="1443664051256" expanded="true" signature="4059:4150" placeholder="SELECT `stat..tasks.status..." />
+            <marker date="1443664051256" expanded="true" signature="5141:5183" placeholder="SELECT id FR..tasks..." />
+            <marker date="1443664051256" expanded="true" signature="7595:7640" placeholder="SELECT id FR..tasks.files..." />
+            <marker date="1443664051256" expanded="true" signature="8842:8864" placeholder="SELECT id FR..tasks..." />
+            <marker date="1443664051256" expanded="true" signature="9060:9105" placeholder="SELECT id FR..tasks.files..." />
+            <marker date="1443664051256" expanded="true" signature="11066:11113" placeholder="SELECT path ..tasks.user_files..." />
+            <marker date="1443664051256" expanded="true" signature="12267:12348" placeholder="SELECT id FR..tasks.user_files..." />
+            <marker date="1443664051256" expanded="true" signature="12907:12954" placeholder="SELECT path ..tasks.user_files..." />
+            <marker date="1443664051256" expanded="true" signature="14111:14199" placeholder="SELECT task_..tasks.assigned..." />
+            <marker date="1443664051256" expanded="true" signature="14415:14496" placeholder="SELECT id FR..tasks.user_files..." />
+            <marker date="1443664051256" expanded="true" signature="15089:15136" placeholder="SELECT path ..tasks.user_files..." />
+            <marker date="1443664051256" expanded="true" signature="16480:16535" placeholder="SELECT user_..tasks.user_files..." />
+            <marker date="1443664051256" expanded="true" signature="16767:16848" placeholder="SELECT id FR..tasks.user_files..." />
+            <marker date="1443664051256" expanded="true" signature="17441:17488" placeholder="SELECT path ..tasks.user_files..." />
+            <marker date="1443664051256" expanded="true" signature="18685:18750" placeholder="SELECT user_..tasks.assigned..." />
+            <marker date="1443664051256" expanded="true" signature="19030:19111" placeholder="SELECT id FR..tasks.user_files..." />
+            <marker date="1443664051256" expanded="true" signature="19702:19749" placeholder="SELECT path ..tasks.user_files..." />
+            <marker date="1443664051256" expanded="true" signature="21890:22004" placeholder="SELECT id FR..tasks.assigned..." />
+            <marker date="1443664051256" expanded="true" signature="22388:22502" placeholder="SELECT id FR..tasks.assigned..." />
+            <marker date="1443664051256" expanded="true" signature="22722:22817" placeholder="SELECT `stat..tasks.status..." />
+            <marker date="1443664051256" expanded="true" signature="23310:23424" placeholder="SELECT id FR..tasks.assigned..." />
+            <marker date="1443664051256" expanded="true" signature="23644:23740" placeholder="SELECT `comm..tasks.status..." />
+            <marker date="1443664051256" expanded="true" signature="24315:24402" placeholder="SELECT task_..tasks.assigned..." />
+            <marker date="1443664051256" expanded="true" signature="25234:25329" placeholder="SELECT `stat..tasks.status..." />
+            <marker date="1443664051256" expanded="true" signature="25733:25829" placeholder="SELECT `comm..tasks.status..." />
+            <marker date="1443664051256" expanded="true" signature="26901:27007" placeholder="SELECT id FR..tasks.assigned..." />
+            <marker date="1443664051256" expanded="true" signature="28947:29020" placeholder="INSERT INTO ..." />
+            <marker date="1443664051256" expanded="true" signature="28947:29033" placeholder="INSERT INTO ..." />
+            <marker date="1443664051256" expanded="true" signature="28947:29078" placeholder="INSERT INTO ..." />
+            <marker date="1443664051256" expanded="true" signature="29387:29428" placeholder="SELECT id FR..users..." />
+            <marker date="1443664051256" expanded="true" signature="29651:29679" placeholder="INSERT INTO ..." />
+            <marker date="1443664051256" expanded="true" signature="29651:29716" placeholder="INSERT INTO ..." />
+            <marker date="1443664051256" expanded="true" signature="29651:29729" placeholder="INSERT INTO ..." />
+            <marker date="1443664051256" expanded="true" signature="29651:29743" placeholder="INSERT INTO ..." />
+            <marker date="1443664051256" expanded="true" signature="29651:29756" placeholder="INSERT INTO ..." />
+            <marker date="1443664051256" expanded="true" signature="30098:30205" placeholder="INSERT INTO ..." />
+            <marker date="1443664051256" expanded="true" signature="30962:30978" placeholder="SELECT id FR..." />
+            <marker date="1443664051256" expanded="true" signature="30962:31009" placeholder="SELECT id FR..tasks.assigned..." />
+            <marker date="1443664051256" expanded="true" signature="30962:31010" placeholder="SELECT id FR..tasks.assigned..." />
+            <marker date="1443664051256" expanded="true" signature="30962:31036" placeholder="SELECT id FR..tasks.assigned..." />
+            <marker date="1443664051256" expanded="true" signature="30962:31037" placeholder="SELECT id FR..tasks.assigned..." />
+            <marker date="1443664051256" expanded="true" signature="30962:31038" placeholder="SELECT id FR..tasks.assigned..." />
+            <marker date="1443664051256" expanded="true" signature="31329:31366" placeholder="UPDATE `task..." />
+            <marker date="1443664051256" expanded="true" signature="31329:31367" placeholder="UPDATE `task..." />
+            <marker date="1443664051256" expanded="true" signature="31329:31398" placeholder="UPDATE `task..." />
+            <marker date="1443664051256" expanded="true" signature="31329:31399" placeholder="UPDATE `task..." />
+            <marker date="1443664051256" expanded="true" signature="31329:31427" placeholder="UPDATE `task..." />
+            <marker date="1443664051256" expanded="true" signature="31329:31429" placeholder="UPDATE `task..." />
+            <marker date="1443664051256" expanded="true" signature="31329:31430" placeholder="UPDATE `task..." />
+            <marker date="1443664051256" expanded="true" signature="31329:31448" placeholder="UPDATE `task..." />
+            <marker date="1443664051256" expanded="true" signature="31601:31706" placeholder="INSERT INTO ..." />
+            <marker date="1443664051256" expanded="true" signature="32000:32107" placeholder="INSERT INTO ..." />
+            <marker date="1443664051256" expanded="true" signature="32661:32736" placeholder="SELECT id FR..tasks.assigned..." />
+            <marker date="1443664051256" expanded="true" signature="32941:33081" placeholder="INSERT INTO ..." />
+            <marker date="1443664051256" expanded="true" signature="35177:35217" placeholder="SELECT stude..users..." />
+            <marker date="1443664051256" expanded="true" signature="35795:35874" placeholder="SELECT path ..tasks.user_files..." />
+            <marker date="1443664051256" expanded="true" signature="38037:38185" placeholder="INSERT INTO ..." />
+            <marker date="1443664051256" expanded="true" signature="40963:41119" placeholder="INSERT INTO ..." />
+            <marker date="1443664051256" expanded="true" signature="44365:44416" placeholder="UPDATE `task..." />
+            <marker date="1443664051256" expanded="true" signature="44592:44652" placeholder="UPDATE `task..." />
+            <marker date="1443664051256" expanded="true" signature="45476:45555" placeholder="SELECT id FR..tasks.assigned..." />
+            <marker date="1443664051256" expanded="true" signature="45703:45804" placeholder="UPDATE `task..." />
+            <marker date="1443664051256" expanded="true" signature="45989:46106" placeholder="INSERT INTO ..." />
+            <marker date="1443664051256" expanded="true" signature="46418:46529" placeholder="INSERT INTO ..." />
+            <marker date="1443664051256" expanded="true" signature="47916:47963" placeholder="SELECT path ..tasks.user_files..." />
+            <marker date="1443664051256" expanded="true" signature="48212:48254" placeholder="DELETE FROM ..." />
+            <marker date="1443664051256" expanded="true" signature="48441:48483" placeholder="SELECT path ..tasks.files..." />
+            <marker date="1443664051256" expanded="true" signature="48732:48769" placeholder="DELETE FROM ..." />
+            <marker date="1443664051256" expanded="true" signature="49293:49368" placeholder="SELECT id FR..tasks.assigned..." />
+            <marker date="1443664051256" expanded="true" signature="49496:49545" placeholder="DELETE FROM ..." />
+            <marker date="1443664051256" expanded="true" signature="49640:49692" placeholder="SELECT path ..tasks.user_files..." />
+            <marker date="1443664051256" expanded="true" signature="49892:49964" placeholder="DELETE FROM ..." />
+            <marker date="1443664051256" expanded="true" signature="50024:50098" placeholder="DELETE FROM ..." />
+            <marker date="1443664051256" expanded="true" signature="50240:50288" placeholder="SELECT id FR..tasks.assigned..." />
+            <marker date="1443664051256" expanded="true" signature="50416:50465" placeholder="DELETE FROM ..." />
+            <marker date="1443664051256" expanded="true" signature="50560:50612" placeholder="SELECT path ..tasks.user_files..." />
+            <marker date="1443664051256" expanded="true" signature="50821:50868" placeholder="SELECT path ..tasks.files..." />
+            <marker date="1443664051256" expanded="true" signature="51068:51113" placeholder="DELETE FROM ..." />
+            <marker date="1443664051256" expanded="true" signature="51173:51220" placeholder="DELETE FROM ..." />
+            <marker date="1443664051256" expanded="true" signature="51280:51322" placeholder="DELETE FROM ..." />
+            <marker date="1443664051256" expanded="true" signature="51382:51413" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="150" column="40" selection-start-line="150" selection-start-column="40" selection-end-line="150" selection-end-column="40" />
+          <folding>
+            <marker date="1443933956171" expanded="true" signature="1972:2012" placeholder="SELECT stude..users..." />
+            <marker date="1443933956171" expanded="true" signature="2842:2917" placeholder="SELECT id FR..users.secondary_field_types..." />
+            <marker date="1443933956171" expanded="true" signature="3259:3350" placeholder="SELECT `valu..users.secondary_info..." />
+            <marker date="1443933956171" expanded="true" signature="4106:4181" placeholder="SELECT id FR..users.secondary_field_types..." />
+            <marker date="1443933956171" expanded="true" signature="4523:4614" placeholder="SELECT `valu..users.secondary_info..." />
+            <marker date="1443933956171" expanded="true" signature="5566:5618" placeholder="SELECT user...users..." />
+            <marker date="1443933956171" expanded="true" signature="5566:5630" placeholder="SELECT user...users..." />
+            <marker date="1443933956171" expanded="true" signature="5566:5652" placeholder="SELECT user...users..." />
+            <marker date="1443933956171" expanded="true" signature="5566:6014" placeholder="SELECT user...users..." />
+            <marker date="1443933956171" expanded="true" signature="5566:6026" placeholder="SELECT user...users..." />
+            <marker date="1443933956171" expanded="true" signature="5566:6034" placeholder="SELECT user...users..." />
+            <marker date="1443933956171" expanded="true" signature="5566:6055" placeholder="SELECT user...users..." />
+            <marker date="1443933956171" expanded="true" signature="5566:6111" placeholder="SELECT user...users..." />
+            <marker date="1443933956171" expanded="true" signature="5566:6119" placeholder="SELECT user...users..." />
+            <marker date="1443933956171" expanded="true" signature="5566:6140" placeholder="SELECT user...users..." />
+            <marker date="1443933956171" expanded="true" signature="5566:6141" placeholder="SELECT FROM ..users..." />
+            <marker date="1443933956171" expanded="true" signature="6984:7024" placeholder="SELECT stude..users..." />
+            <marker date="1443933956171" expanded="true" signature="7458:7498" placeholder="SELECT permi..users..." />
+            <marker date="1443933956171" expanded="true" signature="8420:8495" placeholder="SELECT id FR..users.secondary_field_types..." />
+            <marker date="1443933956171" expanded="true" signature="8865:8951" placeholder="SELECT `valu..users.secondary_info..." />
+            <marker date="1443933956171" expanded="true" signature="10949:11037" placeholder="INSERT INTO ..." />
+            <marker date="1443933956171" expanded="true" signature="11100:11157" placeholder="SELECT id FR..users..." />
+            <marker date="1443933956171" expanded="true" signature="11417:11624" placeholder="INSERT INTO ..." />
+            <marker date="1443933956171" expanded="true" signature="11730:11759" placeholder="SELECT id,`g..tasks..." />
+            <marker date="1443933956171" expanded="true" signature="11987:12087" placeholder="INSERT INTO ..." />
+            <marker date="1443933956171" expanded="true" signature="12365:12472" placeholder="INSERT INTO ..." />
+            <marker date="1443933956171" expanded="true" signature="12620:12672" placeholder="INSERT INTO ..." />
+            <marker date="1443933956171" expanded="true" signature="13130:13276" placeholder="INSERT INTO ..." />
+            <marker date="1443933956171" expanded="true" signature="13335:13401" placeholder="SELECT id FR..users..." />
+            <marker date="1443933956171" expanded="true" signature="14259:14504" placeholder="INSERT INTO ..." />
+            <marker date="1443933956171" expanded="true" signature="14679:14708" placeholder="SELECT id,`g..tasks..." />
+            <marker date="1443933956171" expanded="true" signature="14952:15052" placeholder="INSERT INTO ..." />
+            <marker date="1443933956171" expanded="true" signature="15346:15453" placeholder="INSERT INTO ..." />
+            <marker date="1443933956171" expanded="true" signature="15657:15709" placeholder="INSERT INTO ..." />
+            <marker date="1443933956171" expanded="true" signature="16851:16905" placeholder="UPDATE users..." />
+            <marker date="1443933956171" expanded="true" signature="17146:17200" placeholder="UPDATE users..." />
+            <marker date="1443933956171" expanded="true" signature="17399:17468" placeholder="UPDATE `user..." />
+            <marker date="1443933956171" expanded="true" signature="17650:17722" placeholder="SELECT id FR..users.secondary_field_types..." />
+            <marker date="1443933956171" expanded="true" signature="18022:18127" placeholder="UPDATE `user..." />
+            <marker date="1443933956171" expanded="true" signature="18658:18687" placeholder="DELETE FROM ..." />
+            <marker date="1443933956171" expanded="true" signature="18751:18800" placeholder="DELETE FROM ..." />
+            <marker date="1443933956171" expanded="true" signature="18864:18899" placeholder="DELETE FROM ..." />
+            <marker date="1443933956171" expanded="true" signature="18963:19014" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/users/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="118" column="136" selection-start-line="118" selection-start-column="136" selection-end-line="118" selection-end-column="136" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#2;n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/Handsworth-Graduation/js/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05685619">
+          <caret line="849" column="14" selection-start-line="849" selection-start-column="14" selection-end-line="849" selection-end-column="14" />
+          <folding>
+            <element signature="e#24715#27019#0" expanded="false" />
+            <element signature="e#27021#29444#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
