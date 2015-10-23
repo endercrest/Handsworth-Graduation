@@ -5,8 +5,8 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <link href="../../library/Bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <link href="../../library/Handsworth-Graduation/css/AdminLTE.min.css" rel="stylesheet" type="text/css"/>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-    <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../library/FontAwesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../library/Ionicons/ionicons.min.css" rel="stylesheet" type="text/css" />
     <link href="../../library/Handsworth-Graduation/css/HandsworthGrad.css" rel="stylesheet" type="text/css"/>
     <link href="../../library/Handsworth-Graduation/css/skins/skin-royal-blue-light.min.css" rel="stylesheet" type="text/css"/>
     <link href="../../library/datepicker/datepicker3.css" rel="stylesheet" type="text/css"/>
@@ -176,7 +176,7 @@
             <ol class="breadcrumb">
                 <li><a href="../../"><i class="fa fa-home"></i> Home</a></li>
                 <li><a href="../../admin/tasks/"><i class="fa fa-tasks"></i>Manage Tasks</a></li>
-                <li><a href=""><i class="fa fa-pencil"></i> Task - {{task.name}}</a></li>
+                <li><a href="#"><i class="fa fa-pencil"></i> Task - {{task.name}}</a></li>
             </ol>
         </section>
 
@@ -211,7 +211,7 @@
                                         <h4 style="font-weight: bold">Allowed File Types: </h4>
                                     </div>
                                 </div>
-                                <button ng-hide="task.status == 'Accepted' || task.status == 'Pending'" type="submit" class="btn btn-success btn-block btn-lg" style="margin-top:10px;" ng-click="submitUpdate()">Update Task</button>
+                                <button ng-hide="task.status == 'Accepted' || task.status == 'Pending'" type="submit" class="btn btn-success btn-block btn-lg btn-flat" style="margin-top:10px;" ng-click="submitUpdate()">Update Task</button>
                             </form>
                         </div><!-- /.box-body -->
                     </div><!-- /.box -->
@@ -262,8 +262,8 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-2 center-block">
-                                    <button class="btn btn-primary btn center-block" ng-click="unassignButton()" style="font-size:20px;">&laquo;</button>
-                                    <button class="btn btn-primary btn center-block" ng-click="assignButton()" style="font-size:20px;margin-top:5px;">&raquo;</button>
+                                    <button class="btn btn-primary btn center-block btn-flat" ng-click="unassignButton()" style="font-size:20px;">&laquo;</button>
+                                    <button class="btn btn-primary btn center-block btn-flat" ng-click="assignButton()" style="font-size:20px;margin-top:5px;">&raquo;</button>
                                 </div>
                                 <div class="col-lg-5">
                                     <h3>Students Assigned</h3>
@@ -335,7 +335,7 @@
                                             <input type="text" name="uploadDescription" class="form-control" title="Description" style="width: 100%;" required>
                                             <h5>File</h5>
                                             <input type="file" ngf-select ng-model="file" id="file" name="file" ngf-max-size="5MB" required>
-                                            <button type="submit" class="btn btn-primary btn-block" style="margin-top: 10px;" ng-click="submit()">Add</button>
+                                            <button type="submit" class="btn btn-primary btn-block btn-flat" style="margin-top: 10px;" ng-click="submit()">Add</button>
                                         </form>
                                     </div>
                                 </div>

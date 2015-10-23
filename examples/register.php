@@ -5,7 +5,7 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
     <link href="../library/Bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="../library/FontAwesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link href="../library/Handsworth-Graduation/css/AdminLTE.min.css" rel="stylesheet" type="text/css"/>
     <link href="../library/Handsworth-Graduation/css/HandsworthGrad.css" rel="stylesheet" type="text/css"/>
     <link href="../library/iCheck/square/green.css" rel="stylesheet" type="text/css"/>

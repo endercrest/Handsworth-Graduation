@@ -820,10 +820,6 @@ taskApp.controller("users.admin", ["$scope", "$http", "tokenCheck", "$window", "
     });
 }]);
 
-taskApp.controller("users.admin.add", ["$scope", "$http", "tokenCheck", "$window", "pathStarter", function ($scope, $http, tokenCheck, $window, pathStarter) {
-
-}]);
-
 taskApp.controller("users.admin.list", ["$scope", "$http", "pathStarter", "tokenCheck", function ($scope, $http, pathStarter, tokenCheck) {
     tokenCheck.tokenCheck().success(function(response){
         if(response.VALID){
@@ -832,135 +828,44 @@ taskApp.controller("users.admin.list", ["$scope", "$http", "pathStarter", "token
                 page = 0;
             }
 
-            $http({method: "GET", url: pathStarter+"api/user.php", params: {TOKEN: response.TOKEN, PAGE: page, LIMIT: 15, DATA: ["id", "student_id", "first_name", "last_name", "permission"]}, paramSerializer: "$httpParamSerializerJQLike"})
-                .success(function (response1) {
-                    $scope.users = response1.users;
-                });
-
-            var page1 = getParameterByName("page");
-            if (getParameterByName("page") == "") {
-                page1 = 1;
-            }
-
-            $http({
-                method: "GET",
-                url: pathStarter + "api/user.php",
-                params: {TOKEN: response.TOKEN, DATA: ["id"]},
-                paramSerializer: "$httpParamSerializerJQLike"
-            })
-                .then(function (response2) {
-                    $scope.size = Math.ceil(response2.data.users.length / 15) >= parseInt(page1) + 1;
-                    $scope.back = {
-                        "page": parseInt(page1) - 1,
-                        "enabled": parseInt(page1) - 1 > 0
-                    };
-                    $scope.next = {
-                        "page": parseInt(page1) + 1,
-                        "enabled": $scope.size
-                    };
-                    $scope.btn = [];
-                    for (var i = page1 - 2; i < page1 + 3; i++) {
-                        if (i > 0) {
-                            if (Math.ceil(response2.data.users.length / 15) >= i) {
-                                var item = {
-                                    "page": i,
-                                    "active": i == page1
-                                };
-                                $scope.btn.push(item);
-                            }
-                        }
-                    }
-                });
-
-            var searchID = 0;
-
-            $scope.updateSearch = function(){
-                searchID++;
-                var localSearchID = searchID;
-                $http({method: "GET", url: pathStarter+"api/user.php", params: {TOKEN: response.TOKEN, SEARCH: $scope.search,PAGE: page, LIMIT: 15, DATA: ["id", "student_id", "first_name", "last_name", "permission"]}, paramSerializer: "$httpParamSerializerJQLike"})
-                    .success(function (response2) {
-                        if(localSearchID == searchID) {
-                            if (response2.users == null) {
-                                response2.users = [];
-                            }
-                            $scope.users = response2.users;
-                        }else{
-                            console.log("Another search has already been initiated");
-                        }
+            $scope.loadData = function(){
+                $http({method: "GET", url: pathStarter+"api/user.php", params: {TOKEN: response.TOKEN, DATA: ["id", "student_id", "first_name", "last_name", "permission", "status"]}, paramSerializer: "$httpParamSerializerJQLike"})
+                    .success(function (response1) {
+                        $scope.users = response1.users;
                     });
+            };
 
-                $http({method: "GET", url: pathStarter+"/api/user.php", params: {TOKEN: response.TOKEN, SEARCH: $scope.search, DATA: ["id"]}, paramSerializer: "$httpParamSerializerJQLike"})
-                    .success(function(response2){
-                        if(localSearchID == searchID){
-                            $scope.size = Math.ceil(response2.users.length / 15) >= parseInt(page1) + 1;
-                            $scope.back = {
-                                "page": parseInt(page1) - 1,
-                                "enabled": parseInt(page1) - 1 > 0
-                            };
-                            $scope.next = {
-                                "page": parseInt(page1) + 1,
-                                "enabled": $scope.size
-                            };
-                            $scope.btn = [];
-                            for (var i = page1 - 2; i < page1 + 3; i++) {
-                                if (i > 0) {
-                                    if (Math.ceil(response2.users.length / 15) >= i) {
-                                        var item = {
-                                            "page": i,
-                                            "active": i == page1
-                                        };
-                                        $scope.btn.push(item);
-                                    }
-                                }
-                            }
+            $scope.createUser = function () {
+                if ($scope.user != null) {
+                    if ($scope.user.fname != null && $scope.user.lname != null && $scope.user.permission != null) {
+                        if($scope.user.password == null){
+                            $scope.user.password = "";
                         }
-                    })
-            }
+
+                        $http({method: "POST", url: pathStarter + "api/user.php", params: {TOKEN: response.TOKEN}, data: {FIRST_NAME: $scope.user.fname, LAST_NAME: $scope.user.lname, PASSWORD: $scope.user.password, PERMISSION: $scope.user.permission}})
+                            .success(function (response1) {
+                                document.forms["addUser"].reset();
+                                $http({method: "GET", url: pathStarter+"api/user.php", params: {TOKEN: response.TOKEN, USER_ID: response1.student.user_id, DATA: ["id", "student_id", "first_name", "last_name", "permission"]}, paramSerializer: "$httpParamSerializerJQLike"})
+                                    .success(function(response2){
+                                        console.log(response2);
+                                        $scope.users.push(response2);
+                                    });
+                            });
+                    }
+                }
+            };
+
+            $scope.loadData();
         }
     });
 }]);
 
-taskApp.controller("users.admin.pagination",["$scope", "$http", "tokenCheck", "pathStarter", function($scope, $http, tokenCheck, pathStarter){
+taskApp.controller("users.admin.edit", ["$scope", "$http", "pathStarter", "tokenCheck", function($scope, $http, pathStarter, tokenCheck){
     tokenCheck.tokenCheck().success(function(response){
-        if(response.VALID) {
-            var page1 = getParameterByName("page");
-            if (getParameterByName("page") == "") {
-                page1 = 1;
-            }
+        if(response.VALID){
+            var user_id = getParameterByName("user_id");
 
-            $http({
-                method: "GET",
-                url: pathStarter + "api/user.php",
-                params: {TOKEN: response.TOKEN, DATA: ["id"]},
-                paramSerializer: "$httpParamSerializerJQLike"
-            })
-                .then(function (response) {
-                    $scope.size = Math.ceil(response.data.users.length / 15) >= parseInt(page1) + 1;
-                    $scope.back = {
-                        "page": parseInt(page1) - 1,
-                        "enabled": parseInt(page1) - 1 > 0
-                    };
-                    $scope.next = {
-                        "page": parseInt(page1) + 1,
-                        "enabled": $scope.size
-                    };
-                    $scope.btn = [];
-                    for (var i = page1 - 2; i < page1 + 3; i++) {
-                        if (i > 0) {
-                            if (Math.ceil(response.data.users.length / 15) >= i) {
-                                var item = {
-                                    "page": i,
-                                    "active": i == page1
-                                };
-                                $scope.btn.push(item);
-                            }
-                        }
-                    }
-                });
 
-            $scope.updateSearch = function(){
-                console.log($scope.test);
-            }
         }
     });
 }]);

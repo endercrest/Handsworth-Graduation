@@ -44,7 +44,7 @@ if(isset($_GET['TOKEN'])){
                 $id = $_GET['USER_ID'];
 
                 if (empty($_GET['DATA'])) {
-                    $_GET['DATA'] = array("id", "student_id", "first_name", "last_name", "phone_number", "email", "address", "profile_picture");
+                    $_GET['DATA'] = array("id", "student_id", "first_name", "last_name", "phone_number", "email", "address", "profile_picture", "permission", "status");
                 }
 
                 foreach ($_GET['DATA'] as $data) {
@@ -59,7 +59,27 @@ if(isset($_GET['TOKEN'])){
                             http_response_code(200);
                             break;
                         }
-                    } else if (in_array($data, $primary)) {
+                    }else if($data == "permission"){
+                        $result = mysqli_query($mysqli, "SELECT permission FROM users WHERE id = " . $id . ";");
+
+                        while ($row = mysqli_fetch_assoc($result)) {
+                            $response["permission"] = $row["permission"];
+                            http_response_code(200);
+                            break;
+                        }
+                    }else if($data == "status"){
+                        $status = "Registered";
+
+                        $result = mysqli_query($mysqli, "SELECT id FROM `users.claim` WHERE user_id =".$id.";");
+
+                        while($row = mysqli_fetch_assoc($result)){
+                            $status = "Unregistered";
+                            break;
+                        }
+
+                        $response["status"] = $status;
+
+                    }  else if (in_array($data, $primary)) {
                         $result = mysqli_query($mysqli, "SELECT " . $data . " FROM `users.primary_info` WHERE user_id = " . $id . ";");
 
                         while ($row = mysqli_fetch_assoc($result)) {
@@ -119,7 +139,7 @@ if(isset($_GET['TOKEN'])){
              */
             }else{
                 if (empty($_GET['DATA'])) {
-                    $_GET['DATA'] = array("id", "student_id", "permission", "first_name", "last_name", "phone_number", "email", "address", "profile_picture");
+                    $_GET['DATA'] = array("id", "student_id", "permission", "first_name", "last_name", "phone_number", "email", "address", "profile_picture", "status");
                 }
 
                 if(empty($_GET["SEARCH"])){
@@ -174,6 +194,18 @@ if(isset($_GET['TOKEN'])){
                                 $array["permission"] = $row['permission'];
                                 break;
                             }
+                        }else if($data == "status"){
+                            $status = "Registered";
+
+                            $result = mysqli_query($mysqli, "SELECT id FROM `users.claim` WHERE user_id =".$id.";");
+
+                            while($row = mysqli_fetch_assoc($result)){
+                                $status = "Unregistered";
+                                break;
+                            }
+
+                            $array["status"] = $status;
+
                         } else if (in_array($data, $primary)) {
                             $result = mysqli_query($mysqli, "SELECT " . $data . " FROM `users.primary_info` WHERE user_id = " . $id . ";");
 
@@ -276,70 +308,90 @@ if(isset($_GET['TOKEN'])){
                     }
                 }
             }else{
-                if(isset($_POST['STUDENT_ID']) && isset($_POST['PASSWORD'])){
-                    $_POST['PASSWORD'] = sha1($_POST['PASSWORD']);
+                if(empty($_POST["STUDENT_ID"])){
+                    $valid = false;
+                    $new_id = "000000s";
+                    while(!$valid){
+                        $num1 = rand(0, 9);
+                        $num2 = rand(0, 9);
+                        $num3 = rand(0, 9);
+                        $num4 = rand(0, 9);
+                        $num5 = rand(0, 9);
+                        $num6 = rand(0, 9);
+                        $new_id = $num1.$num2.$num3.$num4.$num5.$num6."s";
 
-                    mysqli_query($mysqli, "INSERT INTO users (student_id, `password`, `permission`) VALUES ('".$_POST['STUDENT_ID']."', '".$_POST['PASSWORD']."', '".$_POST["PERMISSION"]."');");
+                        $query = mysqli_query($mysqli, "SELECT id FROM users WHERE student_id = '".$new_id."';");
 
-                    $result = mysqli_query($mysqli, "SELECT id FROM users WHERE student_id = '".$_POST['STUDENT_ID']."';");
-                    $id = 0;
-                    while($row = mysqli_fetch_assoc($result)){
-                        $id = $row['id'];
-                        break;
-                    }
-
-                    if(!isset($_POST["FIRST_NAME"])){
-                        $_POST["FIRST_NAME"] = "";
-                    }
-                    if(!isset($_POST["LAST_NAME"])){
-                        $_POST["LAST_NAME"] = "";
-                    }
-                    if(!isset($_POST["PHONE_NUMBER"])){
-                        $_POST["PHONE_NUMBER"] = "";
-                    }
-                    if(!isset($_POST["ADDRESS"])){
-                        $_POST["ADDRESS"] = "";
-                    }
-                    if(!isset($_POST["EMAIL"])){
-                        $_POST["EMAIL"] = "";
-                    }
-
-                    mysqli_query($mysqli, "INSERT INTO `users.primary_info` (user_id, first_name, last_name, phone_number, email, address) VALUES (".$id.", '".$_POST['FIRST_NAME']."', '".$_POST['LAST_NAME']."', '".$_POST['PHONE_NUMBER']."', '".$_POST['EMAIL']."', '".$_POST['ADDRESS']."');");
-
-
-                    if(isset($_POST["PERMISSION"])){
-                        if($_POST["PERMISSION"] == 2){
-                            $query = mysqli_query($mysqli, "SELECT id,`global` FROM tasks");
-
-                            while($row = mysqli_fetch_assoc($query)){
-                                $task_id = $row["id"];
-                                $global = $row["global"];
-
-                                mysqli_query($mysqli, "INSERT INTO `tasks.assigned` (user_id, task_id, enabled) VALUES (".$id.", ".$task_id.", ".$global.");");
-                                $query1 = mysqli_query($mysqli, "SELECT LAST_INSERT_ID();");
-                                while($row1 = mysqli_fetch_row($query1)){
-                                    $assignment_id = $row1[0];
-                                    mysqli_query($mysqli, "INSERT INTO `tasks.status` (assignment_id, `status`, `comment`) VALUES (".$assignment_id.", 'Assigned', '');");
-                                    break;
-                                }
-                            }
+                        $valid = true;
+                        while($row = mysqli_fetch_assoc($query)){
+                            $valid = false;
+                            break;
                         }
                     }
 
-                    mysqli_query($mysqli, "INSERT INTO `users.claim` (user_id) VALUES (".$id.");");
+                    $_POST["STUDENT_ID"] = $new_id;
+                }
 
-                    //TODO Comeback if there is any secondary data needed to be added.
+                if(empty($_POST["PASSWORD"])){
+                    $_POST["PASSWORD"] = "student";
+                }
 
-                    $response["student"] = $_POST['STUDENT_ID'];
-                    http_response_code(200);
-                }else{
-                    if(empty($_POST['STUDENT_ID'])){
-                        $response["ERROR"][] = "MISSING 'STUDENT_ID'";
-                    }
-                    if(empty($_POST['BIRTH_DATE'])){
-                        $response["ERROR"][] = "MISSING 'BIRTH_DATE'";
+                $_POST['PASSWORD'] = sha1($_POST['PASSWORD']);
+
+                mysqli_query($mysqli, "INSERT INTO users (student_id, `password`, `permission`) VALUES ('".$_POST['STUDENT_ID']."', '".$_POST['PASSWORD']."', '".$_POST["PERMISSION"]."');");
+
+                $result = mysqli_query($mysqli, "SELECT id FROM users WHERE student_id = '".$_POST['STUDENT_ID']."';");
+                $id = 0;
+                while($row = mysqli_fetch_assoc($result)){
+                    $id = $row['id'];
+                    break;
+                }
+
+                if(!isset($_POST["FIRST_NAME"])){
+                    $_POST["FIRST_NAME"] = "";
+                }
+                if(!isset($_POST["LAST_NAME"])){
+                    $_POST["LAST_NAME"] = "";
+                }
+                if(!isset($_POST["PHONE_NUMBER"])){
+                    $_POST["PHONE_NUMBER"] = "";
+                }
+                if(!isset($_POST["ADDRESS"])){
+                    $_POST["ADDRESS"] = "";
+                }
+                if(!isset($_POST["EMAIL"])){
+                    $_POST["EMAIL"] = "";
+                }
+
+                mysqli_query($mysqli, "INSERT INTO `users.primary_info` (user_id, first_name, last_name, phone_number, email, address) VALUES (".$id.", '".$_POST['FIRST_NAME']."', '".$_POST['LAST_NAME']."', '".$_POST['PHONE_NUMBER']."', '".$_POST['EMAIL']."', '".$_POST['ADDRESS']."');");
+
+
+                if(isset($_POST["PERMISSION"])){
+                    if($_POST["PERMISSION"] == 2){
+                        $query = mysqli_query($mysqli, "SELECT id,`global` FROM tasks");
+
+                        while($row = mysqli_fetch_assoc($query)){
+                            $task_id = $row["id"];
+                            $global = $row["global"];
+
+                            mysqli_query($mysqli, "INSERT INTO `tasks.assigned` (user_id, task_id, enabled) VALUES (".$id.", ".$task_id.", ".$global.");");
+                            $query1 = mysqli_query($mysqli, "SELECT LAST_INSERT_ID();");
+                            while($row1 = mysqli_fetch_row($query1)){
+                                $assignment_id = $row1[0];
+                                mysqli_query($mysqli, "INSERT INTO `tasks.status` (assignment_id, `status`, `comment`) VALUES (".$assignment_id.", 'Assigned', '');");
+                                break;
+                            }
+                        }
                     }
                 }
+
+                mysqli_query($mysqli, "INSERT INTO `users.claim` (user_id) VALUES (".$id.");");
+
+                //TODO Comeback if there is any secondary data needed to be added.
+
+                $response["student"]["student_id"] = $_POST['STUDENT_ID'];
+                $response["student"]["user_id"] = $id;
+                http_response_code(200);
             }
 
         /**

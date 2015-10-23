@@ -847,6 +847,7 @@ if(isset($_GET['TOKEN'])){
                                 if (mysqli_num_rows($query) > 0) {
                                     mysqli_query($mysqli, "UPDATE `tasks.assigned` SET enabled = " . $global . " WHERE task_id = " . $task_id . " AND user_id = " . $user_id . ";");
                                     $response["update"] = true;
+                                    http_response_code(200);
                                 } else {
                                     mysqli_query($mysqli, "INSERT INTO `tasks.assigned` (user_id, task_id, enabled) VALUES (" . $user_id . ", " . $task_id . ", " . $global . ");");
                                     $query1 = mysqli_query($mysqli, "SELECT LAST_INSERT_ID();");
