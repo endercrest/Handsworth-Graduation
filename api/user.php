@@ -400,10 +400,16 @@ if(isset($_GET['TOKEN'])){
          * Arguments: TOKEN, USER_ID(Optional), DATA[]
          */
         } else if ($_SERVER["REQUEST_METHOD"] == "PUT") {
+            if(isset($_SERVER["CONTENT_TYPE"]) && strpos($_SERVER["CONTENT_TYPE"], "application/json") !== false) {
+                $_POST = array_merge($_POST, (array) json_decode(trim(file_get_contents('php://input')), true));
+            }
+
             $id = $token_check['USER_ID'];
             if(isset($_GET['USER_ID'])){
                 $id = $_GET['USER_ID'];
             }
+
+            $response["DEBUG"]["id"] = $id;
 
             foreach($_POST["DATA"] as $field => $value){
                 if(empty($field)){
@@ -422,8 +428,12 @@ if(isset($_GET['TOKEN'])){
 
                     $response[$field] = "";
                     http_response_code(200);
+                }else if($field == "permission"){
+                    mysqli_query($mysqli, "UPDATE users SET `permission` = '".$field."' WHERE id = ".$id.";");
+
+                    $response[$field] = $value;
                 }else if(in_array($field, $primary)){
-                    mysqli_query($mysqli, "UPDATE `users.primary_info` SET ".$field." = '".$value."' WHERE id = ".$id.";");
+                    mysqli_query($mysqli, "UPDATE `users.primary_info` SET `".$field."` = '".$value."' WHERE id = ".$id.";");
 
                     $response[$field] = $value;
                     http_response_code(200);

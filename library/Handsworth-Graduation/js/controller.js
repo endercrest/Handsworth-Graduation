@@ -863,9 +863,70 @@ taskApp.controller("users.admin.list", ["$scope", "$http", "pathStarter", "token
 taskApp.controller("users.admin.edit", ["$scope", "$http", "pathStarter", "tokenCheck", function($scope, $http, pathStarter, tokenCheck){
     tokenCheck.tokenCheck().success(function(response){
         if(response.VALID){
-            var user_id = getParameterByName("user_id");
+            var user_id = getParameterByName("user");
 
+            $http({method: "GET", url: pathStarter+"api/user.php", params: {TOKEN: response.TOKEN, USER_ID: user_id, DATA: ["first_name", "last_name", "email", "phone_number", "address", "status", "permission"]}, paramSerializer: "$httpParamSerializerJQLike"})
+                .success(function(response1){
+                    console.log(response1);
+                    $scope.user = response1;
+                });
 
+            $scope.updateInfo = function(){
+                if($scope.user.edit != null) {
+                    var first_name;
+                    var last_name;
+                    var email;
+                    var phone_number;
+                    var address;
+                    var permission;
+                    if ($scope.user.edit.first_name == null)
+                        first_name = $scope.user.first_name;
+                    else
+                        first_name = $scope.user.edit.first_name;
+                    if ($scope.user.edit.last_name == null)
+                        last_name = $scope.user.last_name;
+                    else
+                        last_name = $scope.user.edit.last_name;
+                    if ($scope.user.edit.email == null)
+                        email = $scope.user.email;
+                    else
+                        email = $scope.user.edit.email;
+                    if ($scope.user.edit.phone_number == null)
+                        phone_number = $scope.user.phone_number;
+                    else
+                        phone_number = $scope.user.edit.phone_number;
+                    if ($scope.user.edit.address == null)
+                        address = $scope.user.address;
+                    else
+                        address = $scope.user.edit.address;
+                    if ($scope.user.edit.permission == null)
+                        permission = $scope.user.permission;
+                    else
+                        permission = $scope.user.edit.permission;
+
+                    $http({
+                        method: "PUT",
+                        url: pathStarter + "api/user.php",
+                        params: {TOKEN: response.TOKEN, USER_ID: user_id},
+                        data: {
+                            DATA: {
+                                first_name: first_name,
+                                last_name: last_name,
+                                email: email,
+                                phone_number: phone_number,
+                                address: address,
+                                permission: permission
+                            }
+                        }
+                    })
+                        .success(function (response1) {
+                            console.log(response1);
+                        })
+                        .error(function(response1){
+                            console.log(response1);
+                        });
+                }
+            }
         }
     });
 }]);

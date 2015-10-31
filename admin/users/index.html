@@ -130,8 +130,8 @@
                                     </th>
                                     <th width="15%">User ID</th>
                                     <th width="15%">Account Status</th>
-                                    <th width="17%"></th>
-                                    <th width="13%"></th>
+                                    <th width="15%"></th>
+                                    <th width="15%"></th>
                                 </tr>
                                 <tr ng-repeat="x in users | filter:search | orderBy:'last_name'">
                                     <td>{{x.last_name}}, {{x.first_name}} </td>
@@ -193,40 +193,40 @@
                         </div><!-- /.box-header -->
                         <div class="box-body">
                             <div class="row">
-                                <form name="account_info" style="margin-bottom: 0;">
+                                <form name="account_info" id="account_info" style="margin-bottom: 0;">
                                     <div class="col-md-4">
-                                        <label>First Name</label>
-                                        <input class="form-control" title="First Name" ng-model="user.fname"/>
-                                        <label>Last Name</label>
-                                        <input class="form-control" title="Last Name" ng-model="user.lname"/>
+                                        <label>First Name*</label>
+                                        <input class="form-control" title="First Name" ng-value="user.first_name" ng-model="user.edit.first_name" tabindex="1" required/>
+                                        <label>Last Name*</label>
+                                        <input class="form-control" title="Last Name" ng-value="user.last_name" ng-model="user.edit.last_name" tabindex="2" required/>
                                         <label>Email</label>
-                                        <input class="form-control" title="Email" ng-model="user.email"/>
+                                        <input type="email" class="form-control" title="Email" ng-value="user.email" ng-model="user.edit.email" tabindex="3"/>
                                     </div>
                                     <div class="col-md-4">
                                         <label>Phone Number</label>
-                                        <input class="form-control" title="Phone Number" ng-model="user.phone"/>
+                                        <input class="form-control" title="Phone Number" ng-value="user.phone_number" ng-model="user.edit.phone_number" tabindex="4"/>
                                         <label>Address</label>
-                                        <input class="form-control" title="Address" ng-model="user.address"/>
-                                        <label>Account Type</label>
-                                        <select title="Account Type" class="form-control" ng-model="user.permission">
-                                            <option value="2">Student</option>
-                                            <option disabled>Parent</option>
-                                            <option disabled>Teacher</option>
+                                        <input class="form-control" title="Address" ng-value="user.address" ng-model="user.edit.address" tabindex="5"/>
+                                        <label>Account Type*</label>
+                                        <select title="Account Type" class="form-control" ng-model="user.edit.permission" required tabindex="6">
+                                            <option ng-selected="user.permission == 2" value="2">Student</option>
+                                            <option ng-selected="user.permission == 3" value="3" disabled>Parent</option>
+                                            <option ng-selected="user.permission == 1" value="1" disabled>Teacher</option>
                                         </select>
                                     </div>
                                 </form>
                                 <form name="account_password">
                                     <div class="col-md-4">
                                         <label>Password</label>
-                                        <input class="form-control" title="Password" ng-model="reset.password"/>
+                                        <input type="password" class="form-control" title="Password" ng-model="reset.password" required tabindex="8"/>
                                         <label>Repeat Password</label>
-                                        <input class="form-control" title="Repeat Password" ng-model="reset.repeat_password"/>
+                                        <input type="password" class="form-control" title="Repeat Password" ng-model="reset.repeat_password" required tabindex="9"/>
 
-                                        <button class="btn btn-danger btn-block btn-flat" style="margin-top: 5px;">Change Password</button>
+                                        <button class="btn btn-danger btn-block btn-flat" style="margin-top: 5px;" tabindex="10">Change Password</button>
                                     </div>
                                 </form>
                                 <div class="col-md-8">
-                                    <button class="btn btn-success btn-block btn-flat" style="margin-top: 5px;">Update Information</button>
+                                    <button ng-click="updateInfo()" type="submit" form="account_info" class="btn btn-success btn-block btn-flat" style="margin-top: 5px;" tabindex="7" ng-click="update_info()">Update Information</button>
                                 </div>
                             </div>
                         </div><!-- /.box-body -->
@@ -237,8 +237,33 @@
                         <div class="box-header with-border">
                             <h3 class="box-title">Users Tasks</h3>
                         </div><!-- /.box-header -->
-                        <div class="box-body no-padding" style="max-height: 450px;overflow-y: scroll;">
-                            <div class="list-group">
+                        <div class="box-body table-responsive no-padding" style="max-height: 450px;overflow-y: scroll;">
+                            <table class="table">
+                                <tr><td><a href="#">Test Task <span class="label label-success pull-right">Accepted</span></a></td></tr>
+                                <tr><td>Test Task <span class="label label-success pull-right">Accepted</span></td></tr>
+                                <tr><td>Test Task <span class="label label-success pull-right">Accepted</span></td></tr>
+                                <tr><td>Test Task <span class="label label-success pull-right">Accepted</span></td></tr>
+                                <tr><td>Test Task <span class="label label-success pull-right">Accepted</span></td></tr>
+                                <tr><td>Test Task <span class="label label-success pull-right">Accepted</span></td></tr>
+                                <tr><td>Test Task <span class="label label-success pull-right">Accepted</span></td></tr>
+                                <tr><td>Test Task <span class="label label-success pull-right">Accepted</span></td></tr>
+                                <tr><td>Test Task <span class="label label-success pull-right">Accepted</span></td></tr>
+                                <tr><td>Test Task <span class="label label-success pull-right">Accepted</span></td></tr>
+                                <tr><td>Test Task <span class="label label-success pull-right">Accepted</span></td></tr>
+                                <tr><td>Test Task <span class="label label-success pull-right">Accepted</span></td></tr>
+                                <tr><td>Test Task <span class="label label-success pull-right">Accepted</span></td></tr>
+                                <tr><td>Test Task <span class="label label-success pull-right">Accepted</span></td></tr>
+                                <tr><td>Test Task <span class="label label-success pull-right">Accepted</span></td></tr>
+                                <tr><td>Test Task <span class="label label-success pull-right">Accepted</span></td></tr>
+                                <tr><td>Test Task <span class="label label-success pull-right">Accepted</span></td></tr>
+                                <tr><td>Test Task <span class="label label-success pull-right">Accepted</span></td></tr>
+                                <tr><td>Test Task <span class="label label-success pull-right">Accepted</span></td></tr>
+                                <tr><td>Test Task <span class="label label-success pull-right">Accepted</span></td></tr>
+                                <tr><td>Test Task <span class="label label-success pull-right">Accepted</span></td></tr>
+                                <tr><td>Test Task <span class="label label-success pull-right">Accepted</span></td></tr>
+                                <tr><td>Test Task <span class="label label-success pull-right">Accepted</span></td></tr>
+                            </table>
+                            <!--<div class="list-group">
                                 <a class="list-group-item">Test Task <span class="label label-success pull-right">Accepted</span></a>
                                 <a class="list-group-item">Test Task <span class="label label-danger pull-right">Denied</span></a>
                                 <a class="list-group-item">Test Task <span class="label label-primary pull-right">Assigned</span></a>
@@ -259,7 +284,7 @@
                                 <a class="list-group-item">Test Task <span class="label label-warning pull-right">Pending</span></a>
                                 <a class="list-group-item">Test Task <span class="label label-warning pull-right">Pending</span></a>
                                 <a class="list-group-item">Test Task <span class="label label-warning pull-right">Pending</span></a>
-                            </div>
+                            </div>-->
                         </div><!-- /.box-body -->
                     </div><!-- /.box -->
                 </div>

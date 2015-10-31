@@ -53,7 +53,8 @@ fieldset[disabled] .btn-navy.active {
 }
 
 .blur{
-    background:url('http://test.endercrest.com/style/Handsworth-Graduation/img/loginbg.jpeg') no-repeat center;
+    /*FIXME Background URL*/
+    background:url('//style/Handsworth-Graduation/img/loginbg.jpeg') no-repeat center;
     background-size:cover;
     position:absolute;
     width:100%;
