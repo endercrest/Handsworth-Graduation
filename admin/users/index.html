@@ -222,7 +222,7 @@
                                         <label>Repeat Password</label>
                                         <input type="password" class="form-control" title="Repeat Password" ng-model="reset.repeat_password" required tabindex="9"/>
 
-                                        <button class="btn btn-danger btn-block btn-flat" style="margin-top: 5px;" tabindex="10">Change Password</button>
+                                        <button class="btn btn-danger btn-block btn-flat" ng-click="updatePassword()" style="margin-top: 5px;" tabindex="10">Change Password</button>
                                     </div>
                                 </form>
                                 <div class="col-md-8">
@@ -230,6 +230,7 @@
                                 </div>
                             </div>
                         </div><!-- /.box-body -->
+                        <div class="overlay" ng-show="updateScreen"><i class="fa fa-refresh fa-spin"></i></div>
                     </div><!-- /.box -->
                 </div>
                 <div class="col-md-3">
@@ -263,28 +264,6 @@
                                 <tr><td>Test Task <span class="label label-success pull-right">Accepted</span></td></tr>
                                 <tr><td>Test Task <span class="label label-success pull-right">Accepted</span></td></tr>
                             </table>
-                            <!--<div class="list-group">
-                                <a class="list-group-item">Test Task <span class="label label-success pull-right">Accepted</span></a>
-                                <a class="list-group-item">Test Task <span class="label label-danger pull-right">Denied</span></a>
-                                <a class="list-group-item">Test Task <span class="label label-primary pull-right">Assigned</span></a>
-                                <a class="list-group-item">Test Task <span class="label label-warning pull-right">Pending</span></a>
-                                <a class="list-group-item">Test Task <span class="label label-warning pull-right">Pending</span></a>
-                                <a class="list-group-item">Test Task <span class="label label-warning pull-right">Pending</span></a>
-                                <a class="list-group-item">Test Task <span class="label label-warning pull-right">Pending</span></a>
-                                <a class="list-group-item">Test Task <span class="label label-warning pull-right">Pending</span></a>
-                                <a class="list-group-item">Test Task <span class="label label-warning pull-right">Pending</span></a>
-                                <a class="list-group-item">Test Task <span class="label label-warning pull-right">Pending</span></a>
-                                <a class="list-group-item">Test Task <span class="label label-warning pull-right">Pending</span></a>
-                                <a class="list-group-item">Test Task <span class="label label-warning pull-right">Pending</span></a>
-                                <a class="list-group-item">Test Task <span class="label label-warning pull-right">Pending</span></a>
-                                <a class="list-group-item">Test Task <span class="label label-warning pull-right">Pending</span></a>
-                                <a class="list-group-item">Test Task <span class="label label-warning pull-right">Pending</span></a>
-                                <a class="list-group-item">Test Task <span class="label label-warning pull-right">Pending</span></a>
-                                <a class="list-group-item">Test Task <span class="label label-warning pull-right">Pending</span></a>
-                                <a class="list-group-item">Test Task <span class="label label-warning pull-right">Pending</span></a>
-                                <a class="list-group-item">Test Task <span class="label label-warning pull-right">Pending</span></a>
-                                <a class="list-group-item">Test Task <span class="label label-warning pull-right">Pending</span></a>
-                            </div>-->
                         </div><!-- /.box-body -->
                     </div><!-- /.box -->
                 </div>

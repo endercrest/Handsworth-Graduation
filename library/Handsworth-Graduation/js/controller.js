@@ -864,6 +864,7 @@ taskApp.controller("users.admin.edit", ["$scope", "$http", "pathStarter", "token
     tokenCheck.tokenCheck().success(function(response){
         if(response.VALID){
             var user_id = getParameterByName("user");
+            $scope.updateScreen = false;
 
             $http({method: "GET", url: pathStarter+"api/user.php", params: {TOKEN: response.TOKEN, USER_ID: user_id, DATA: ["first_name", "last_name", "email", "phone_number", "address", "status", "permission"]}, paramSerializer: "$httpParamSerializerJQLike"})
                 .success(function(response1){
@@ -888,21 +889,25 @@ taskApp.controller("users.admin.edit", ["$scope", "$http", "pathStarter", "token
                     else
                         last_name = $scope.user.edit.last_name;
                     if ($scope.user.edit.email == null)
-                        email = $scope.user.email;
+                        email = "";
                     else
                         email = $scope.user.edit.email;
                     if ($scope.user.edit.phone_number == null)
-                        phone_number = $scope.user.phone_number;
+                        phone_number = "";
                     else
                         phone_number = $scope.user.edit.phone_number;
                     if ($scope.user.edit.address == null)
-                        address = $scope.user.address;
+                        address = "";
                     else
                         address = $scope.user.edit.address;
                     if ($scope.user.edit.permission == null)
                         permission = $scope.user.permission;
                     else
                         permission = $scope.user.edit.permission;
+
+                    console.log($scope.user.edit.permission);
+
+                    $scope.updateScreen = true;
 
                     $http({
                         method: "PUT",
@@ -920,12 +925,19 @@ taskApp.controller("users.admin.edit", ["$scope", "$http", "pathStarter", "token
                         }
                     })
                         .success(function (response1) {
-                            console.log(response1);
+                            $scope.updateScreen = false;
+                            $scope.user.first_name = response1.first_name;
+                            $scope.user.last_name = response1.last_name;
+                            $scope.user.email = response1.email;
+                            $scope.user.phone_number = response1.phone_number;
+                            $scope.user.address = response1.address;
+                            $scope.user.permission = response1.permission;
                         })
-                        .error(function(response1){
-                            console.log(response1);
-                        });
                 }
+            }
+
+            $scope.updatePassword = function(){
+
             }
         }
     });

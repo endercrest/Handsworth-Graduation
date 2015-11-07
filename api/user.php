@@ -409,8 +409,6 @@ if(isset($_GET['TOKEN'])){
                 $id = $_GET['USER_ID'];
             }
 
-            $response["DEBUG"]["id"] = $id;
-
             foreach($_POST["DATA"] as $field => $value){
                 if(empty($field)){
                     continue;
@@ -424,16 +422,17 @@ if(isset($_GET['TOKEN'])){
                 }else if($field == "password"){
                     $value = sha1($value);
 
-                    mysqli_query($mysqli, "UPDATE users SET `password` = '".$field."' WHERE id = ".$id.";");
+                    mysqli_query($mysqli, "UPDATE users SET `password` = '".$value."' WHERE id = ".$id.";");
 
                     $response[$field] = "";
                     http_response_code(200);
                 }else if($field == "permission"){
-                    mysqli_query($mysqli, "UPDATE users SET `permission` = '".$field."' WHERE id = ".$id.";");
+                    mysqli_query($mysqli, "UPDATE users SET `permission` = ".$value." WHERE id = ".$id.";");
 
                     $response[$field] = $value;
+                    http_response_code(200);
                 }else if(in_array($field, $primary)){
-                    mysqli_query($mysqli, "UPDATE `users.primary_info` SET `".$field."` = '".$value."' WHERE id = ".$id.";");
+                    mysqli_query($mysqli, "UPDATE `users.primary_info` SET `".$field."` = '".$value."' WHERE user_id = ".$id.";");
 
                     $response[$field] = $value;
                     http_response_code(200);

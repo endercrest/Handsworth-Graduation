@@ -54,7 +54,7 @@ fieldset[disabled] .btn-navy.active {
 
 .blur{
     /*FIXME Background URL*/
-    background:url('//style/Handsworth-Graduation/img/loginbg.jpeg') no-repeat center;
+    background:url('../../../style/Handsworth-Graduation/img/loginbg.jpeg') no-repeat center;
     background-size:cover;
     position:absolute;
     width:100%;
